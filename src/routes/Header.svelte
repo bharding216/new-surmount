@@ -9,8 +9,7 @@
 
 			<!--Logo to the left-->
 			<a class="navbar-brand" href="/">
-				<img alt="Company logo" src={logo} class="d-none d-md-inline-block align-top" width="200" height="130">
-				<img alt="Company logo" src={logo} class="d-md-none d-inline-block align-top" width="120" height="75">
+				<img alt="Company logo" src={logo} class="logo align-top">
 			</a>
 
 			<button class="navbar-toggler" 
@@ -50,12 +49,28 @@
 	}
 
 	.nav-link {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
-	@media (max-width: 768px) {
+	.logo {
+		width: 120px;
+		height: 75px;
+	}
+
+	.navbar-custom {
+		background-color: var(--primary-color);
+	}
+
+	@media (max-width: 768px) { 
 		.nav-link {
 			font-size: 14px;
+		}
+	}
+
+	@media (min-width: 768px) {
+		.logo {
+			width: 150px;
+			height: 84px;
 		}
 	}
 </style>

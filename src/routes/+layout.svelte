@@ -1,6 +1,9 @@
 <script>
 	import Header from './Header.svelte';
+	import Footer from './Footer.svelte';
 	import './styles.css';
+
+	var currentYear = new Date().getFullYear();
 </script>
 
 <div>
@@ -10,9 +13,7 @@
 		<slot />
 	</main>
 
-	<footer>
-		<p>&copy; 2021 Your Name</p>
-	</footer>
+	<Footer />
 </div>
 
 <style>
