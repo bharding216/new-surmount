@@ -5,7 +5,7 @@
 </script>
 
 <footer>
-    <div class="text-center">
+    <div class="text-center py-5">
         <p>&copy; <span>{currentYear}</span> Surmount Web Services LLC</p>
     </div>
 </footer>
