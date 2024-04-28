@@ -1,5 +1,7 @@
 <script>
-
+	import usl1 from '$lib/images/usl1.png';
+	import usl2 from '$lib/images/usl2.png';
+	import usl3 from '$lib/images/usl3.png';
 </script>
 
 <svelte:head>
@@ -7,94 +9,79 @@
 	<meta name="description" content="San Antonio web developer" />
 </svelte:head>
 
-<section>
-	<div class="row mt-5 mb-3 pb-4">
-		<div class="text-center">
-			<h1>See What We've Been Up To</h1>
-		</div>
-	</div>
-
-	<div class="row justify-content-center text-center">
-		<div class="portfolio-section">
-			<div class="row">
-				<div class="col d-flex align-items-center flex-column justify-content-center">
-					<h3>Good-lookin' websites</h3>
-					<p class="m-0">A description</p>
-				</div>
-	
-				<div class="col d-flex align-items-center justify-content-center">
-					<p class="m-0">A screenshot</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col d-flex align-items-center flex-column justify-content-center">
-					<p class="m-0">A description 2</p>
-				</div>
-	
-				<div class="col d-flex align-items-center justify-content-center">
-					<p class="m-0">A screenshot 2</p>
-				</div>
+<div class="container">
+	<section>
+		<div class="row mt-5 mb-3 pb-4">
+			<div class="text-center">
+				<h1>Some Projects We're Especially Proud Of</h1>
 			</div>
 		</div>
-	</div>
 
-	<div class="row justify-content-center text-center">
-		<div class="portfolio-section">
-			<div class="row">
-				<div class="col d-flex align-items-center flex-column justify-content-center">
-					<h3>Making web page magic</h3>
-					<p class="m-0">A description</p>
-				</div>
-	
-				<div class="col d-flex align-items-center justify-content-center">
-					<p class="m-0">A screenshot</p>
-				</div>
-			</div>
+		<div class="row justify-content-center text-center">
+			<div class="portfolio-section">
+				<div class="row justify-content-center text-center pb-2 pb-md-4">
+					<div class="row pb-3">
+						<h3>Lab Test Booking Platform</h3>
+					</div>
 
-			<div class="row">
-				<div class="col d-flex align-items-center flex-column justify-content-center">
-					<p class="m-0">A description 2</p>
+					<div class="row">
+						<p>Responsive web application with e-commerce integration for shipping and payments.</p>
+						<p>We also provided the branding and graphic design package.</p>
+					</div>
 				</div>
-	
-				<div class="col d-flex align-items-center justify-content-center">
-					<p class="m-0">A screenshot 2</p>
+
+				<div class="row pb-5">
+					<div class="col-12 col-md-4 align-items-center d-flex">
+						<div class="text-center">
+							<img src={usl1} alt="USL screenshot" class="portfolio-image">
+						</div>
+					</div>
+		
+					<div class="col-12 col-md-4 align-items-center d-flex" >
+						<div class="text-center">
+							<img src={usl3} alt="USL screenshot" class="portfolio-image">
+						</div>
+					</div>
+		
+					<div class="col-12 col-md-4 align-items-center d-flex">
+						<div class="text-center">
+							<img src={usl2} alt="USL screenshot" class="portfolio-image">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="row justify-content-center text-center">
-		<div class="portfolio-section">
-			<div class="row">
-				<div class="col d-flex align-items-center flex-column justify-content-center">
-					<h3>Smoooooth business processes</h3>
-					<p class="m-0">A description</p>
-				</div>
-	
-				<div class="col d-flex align-items-center justify-content-center">
-					<p class="m-0">A screenshot</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col d-flex align-items-center flex-column justify-content-center">
-					<p class="m-0">A description 2</p>
-				</div>
-	
-				<div class="col d-flex align-items-center justify-content-center">
-					<p class="m-0">A screenshot 2</p>
+		<div class="row justify-content-center text-center">
+			<div class="portfolio-section">
+				<div class="row text-center">
+					<p>Another one</p>
 				</div>
 			</div>
 		</div>
-	</div>
 
-    <div class="text-center"><a href="/contact"><button type="button" class="btn btn-primary">Start your project</button></a></div> 
+		<div class="row justify-content-center text-center">
+			<div class="portfolio-section">
+				<div class="row text-center">
+					<p>Another one</p>
+				</div>
+			</div>
+		</div>
 
-</section>
+		<div class="row text-center pt-5 mt-5 pb-5">
+			<h2 class="pb-4">Let's talk about your next big idea</h2>
+			<a href="/contact"><button type="button" class="btn btn-primary">Reach out</button></a>  
+		</div>
 
+	</section>
+</div>
 
 <style>
+
+	.portfolio-image {
+		width: 100%;
+		height: auto;
+	}
 
 	.portfolio-section {
 		background-color: var(--light-green); 

@@ -6,3 +6,28 @@
     --black: #000000;
     --accent-color: #ffccbb;
   }
+
+.wrapper {
+    position: relative;
+}
+
+.btn-primary {
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn-primary:hover {
+    background-color: var(--medium-green);
+}
+
+.image-size {
+    width: 100%;
+    height: auto;
+}
