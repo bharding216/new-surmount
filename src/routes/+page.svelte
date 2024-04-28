@@ -81,7 +81,7 @@
 		</div>
 	
 		<div class="row justify-content-center text-center pb-5">
-			<div class="row pb-3">
+			<div class="row pb-5">
 				<div class="col d-flex align-items-center flex-column justify-content-center portfolio-text">
 					<h3>Good-lookin' websites</h3>
 					<p>We're industry agnostic, having worked with interior designers, engineering corporations, and legal firms.</p>
@@ -94,7 +94,7 @@
 				</div>
 			</div>
 	
-			<div class="row pb-3">
+			<div class="row pb-5">
 				<div class="col d-flex align-items-center flex-column justify-content-center">
 					<a href="/portfolio">
 						<img src={toddlyWebsite} alt="A screenshot of a website" class="image-size image-shadow"/>
@@ -107,7 +107,7 @@
 				</div>
 			</div>
 	
-			<div class="row pb-3">
+			<div class="row pb-5">
 				<div class="col d-flex align-items-center flex-column justify-content-center portfolio-text">
 					<h3><i>Smooooth</i> business processes</h3>
 					<p>We'll write custom code to help improve your visibility over your business processes.</p>
