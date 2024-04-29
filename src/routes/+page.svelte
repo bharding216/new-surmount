@@ -110,7 +110,7 @@
 			<div class="row pb-5">
 				<div class="col-12 col-sm-6 order-1 order-sm-2 d-flex align-items-center flex-column justify-content-center portfolio-text">
 					<h3><i>Smooooth</i> business processes</h3>
-					<p>We'll write custom code to help improve your visibility over your business processes.</p>
+					<p>We've helped business owners improve visibility by writing custom code to create data pipelines and dashboards.</p>
 				</div>
 	
 				<div class="col-12 col-sm-6 order-2 d-flex align-items-center justify-content-center">
