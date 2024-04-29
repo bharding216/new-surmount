@@ -2,7 +2,10 @@
     import { enhance } from '$app/forms';
     export let form;
 
+    let formElement;
     let showOverlay = false;
+    let formSuccess = false;
+    let formSuccessMessage = "";
 </script>
 
 {#if showOverlay}
@@ -23,32 +26,43 @@
     </div>
 </div>
 
-{#if form}
-    {#if form?.body.success}
-        <div class="container pb-3 px-5">
-            <div class="alert alert-success" role="alert">
-                {form?.body.message}
-            </div>
+{#if formSuccess}
+    <div class="container pb-3 px-5">
+        <div class="alert alert-success" role="alert">
+            {formSuccessMessage}
         </div>
-    {/if}
+    </div>
+{/if}
+
+{#if form?.error}
+    <p class="error">{form.error}</p>
 {/if}
 
 <div class="container form-container">
     <div class="row justify-content-center pb-5">
         <div class="col-12 col-md-10 col-lg-6 form-border">
-            <form method="POST" use:enhance={()=>{
-                showOverlay = true
+            <form 
+                bind:this={formElement}
+                method="POST" 
+                use:enhance={() => {
+                    showOverlay = true
 
-                return async ({result})=>{
-                    if(result.type === "success") showOverlay = false
-                }
-            }}>
+                    return async ({ result }) => {
+                        if (result.type === "success") {
+                            showOverlay = false;
+                            formSuccess = true;
+                            formSuccessMessage = "Your message has been sent! We'll get back to you later today.";
+                            formElement.reset();
+                        }
+                    }
+                }}
+            >
 
                 <div class="row">
                     <div class="col">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="username" name="username"
-                                placeholder="Name">
+                                placeholder="Name" required>
                             <label for="username">Name</label>
                         </div>
                     </div>

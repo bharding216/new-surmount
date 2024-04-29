@@ -38,12 +38,12 @@ export const actions = {
             `
         });
 
-        return {
-            status: 200,
-            headers: {
-                location: '/contact'
-            },
-            body: { message: 'Thanks! We\'ll get back to you later today.', success: true}
-        };
+        // return {
+        //     status: 200,
+        //     headers: {
+        //         location: '/contact'
+        //     },
+        //     body: { message: 'Thanks! We\'ll get back to you later today.', success: true}
+        // };
     }
 }
