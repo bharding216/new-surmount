@@ -6,7 +6,9 @@
     let formElement;
     let showOverlay = false;
     let formSuccess = false;
-    let formSuccessMessage = "";
+    let showFormSubmissionMessage = false;
+    let formSubmissionMessage = "";
+    let response_data = "";
 
     let recaptcha_site_key='6LcSEMspAAAAAOl-b_fZccdnPb707gUn7olI4AF4';
 
@@ -44,10 +46,10 @@
     </div>
 </div>
 
-{#if formSuccess}
+{#if showFormSubmissionMessage}
     <div class="container pb-3 px-5">
-        <div class="alert alert-success" role="alert">
-            {formSuccessMessage}
+        <div class={formSuccess ? 'alert alert-success' : 'alert alert-danger'} role="alert">
+            {formSubmissionMessage}
         </div>
     </div>
 {/if}
@@ -66,11 +68,26 @@
                     showOverlay = true
 
                     return async ({ result }) => {
-                        if (result.type === "success") {
+                        console.log("result", result)
+
+                        response_data = result.data;
+                        console.log("response_data", response_data)
+
+                        console.log("response_data.success", response_data.success)
+
+                        if (response_data.success === false) {
                             showOverlay = false;
+                            showFormSubmissionMessage = true;
+                            formSuccess = false;
+                            formSubmissionMessage = "There was an error sending your message. If you keep having issues, please send us a text at (210) 772-5221.";                       
+                            window.scrollTo(0, 0);
+                        } else {
+                            showOverlay = false;
+                            showFormSubmissionMessage = true;
                             formSuccess = true;
-                            formSuccessMessage = "Your message has been sent! We'll get back to you later today.";
+                            formSubmissionMessage = "Your message has been sent! We'll get back to you later today.";
                             formElement.reset();
+                            window.scrollTo(0, 0);
                         }
                     }
                 }}

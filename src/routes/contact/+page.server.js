@@ -15,15 +15,19 @@ export const actions = {
         });
 
         const recaptcha = await response.json();
+        console.log("recaptcha", recaptcha);
 
         if (!recaptcha.success) {
+            console.log("reCAPTCHA failed");
             return {
                 status: 400,
                 body: {
                     error: 'reCAPTCHA failed'
-                }
+                },
+                success: false
             }
         }
+        console.log("reCAPTCHA passed");
 
         // Production
         var transport = nodemailer.createTransport({
