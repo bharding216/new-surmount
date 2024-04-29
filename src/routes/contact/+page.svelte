@@ -1,14 +1,14 @@
 <script>
     import { enhance } from '$app/forms';
     import { onMount } from 'svelte';
-    import { PUBLIC_recaptcha_site_key } from '$env/static/public'
     export let form;
-    // export let data;
 
     let formElement;
     let showOverlay = false;
     let formSuccess = false;
     let formSuccessMessage = "";
+
+    let recaptcha_site_key='6LcSEMspAAAAAOl-b_fZccdnPb707gUn7olI4AF4';
 
     onMount(async () => {
         const script = document.createElement('script');
@@ -22,7 +22,6 @@
 
         document.body.appendChild(script);
     });
-
 
 </script>
 
@@ -130,7 +129,7 @@
                     </div>
                 </div>
 
-                <div class="g-recaptcha mb-3" data-sitekey={PUBLIC_recaptcha_site_key}></div>
+                <div class="g-recaptcha mb-3" data-sitekey={recaptcha_site_key}></div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
 
