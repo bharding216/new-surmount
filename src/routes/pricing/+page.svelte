@@ -2,6 +2,10 @@
 
 </script>
 
+<svelte:head>
+	<title>Pricing</title>
+	<meta name="description" content="San Antonio web developer" />
+</svelte:head>
 
 <div class="container">
 

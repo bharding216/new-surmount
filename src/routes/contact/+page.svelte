@@ -27,6 +27,10 @@
 
 </script>
 
+<svelte:head>
+	<title>Contact us</title>
+	<meta name="description" content="San Antonio web developer" />
+</svelte:head>
 
 {#if showOverlay}
     <div id="formOverlay">
@@ -68,25 +72,19 @@
                     showOverlay = true
 
                     return async ({ result }) => {
-                        response_data = result.data;
-
-                        if (response_data.success === false) {
-                            showOverlay = false;
-                            showFormSubmissionMessage = true;
-                            formSuccess = false;
-                            formSubmissionMessage = "There was an error sending your message. If you keep having issues, please send us a text at (210) 772-5221.";                       
-                            window.scrollTo(0, 0);
-                        } else {
-                            showOverlay = false;
-                            showFormSubmissionMessage = true;
-                            formSuccess = true;
-                            formSubmissionMessage = "Your message has been sent! We'll get back to you later today.";
-                            formElement.reset();
-                            window.scrollTo(0, 0);
-                        }
+                        const response_data = result.data || {};
+                        showOverlay = false;
+                        showFormSubmissionMessage = true;
+                        formSuccess = response_data.success !== false;
+                        formSubmissionMessage = formSuccess ?
+                            "Your message has been sent! We'll get back to you later today." :
+                            "Please mark the reCaptcha checkbox before submitting.";
+                        if (formSuccess) formElement.reset();
+                        window.scrollTo(0, 0);
                     }
                 }}
             >
+                <p class="text-muted">*All fields are required*</p>
 
                 <div class="row">
                     <div class="col">
@@ -101,7 +99,8 @@
                 <div class="row">
                     <div class="col">
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" name="email" 
+                                placeholder="Email" required>
                             <label for="email">Email</label>
                         </div>
                     </div>
@@ -110,7 +109,8 @@
                 <div class="row">
                     <div class="col">
                         <div class="form-floating mb-3">
-                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone" maxlength="15"/> 
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone" 
+                                maxlength="15" required/> 
                             <label for="phone">Phone</label>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                     <div class="col">
                         <div class="form-floating mb-3">
                             <textarea class="form-control" id="message" name="message"
-                                placeholder="Tell us about your vision" style="height: 150px"></textarea>
+                                placeholder="Tell us about your vision" style="height: 150px" required></textarea>
                             <label for="message">Tell us about your vision</label>
                         </div>
                     </div>
