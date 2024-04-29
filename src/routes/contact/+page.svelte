@@ -68,12 +68,7 @@
                     showOverlay = true
 
                     return async ({ result }) => {
-                        console.log("result", result)
-
                         response_data = result.data;
-                        console.log("response_data", response_data)
-
-                        console.log("response_data.success", response_data.success)
 
                         if (response_data.success === false) {
                             showOverlay = false;
