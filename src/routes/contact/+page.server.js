@@ -4,12 +4,23 @@ export const actions = {
     default: async ({ request }) => {
         const data = await request.formData();
 
+        // Production
+        // var transport = nodemailer.createTransport({
+        //     host: "live.smtp.mailtrap.io",
+        //     port: 587,
+        //     auth: {
+        //       user: "api",
+        //       pass: "3b5c881f9bef883ec03423c9691db043"
+        //     }
+        //   });
+
+        // Testing
         var transport = nodemailer.createTransport({
-            host: "live.smtp.mailtrap.io",
-            port: 587,
+            host: "sandbox.smtp.mailtrap.io",
+            port: 2525,
             auth: {
-              user: "api",
-              pass: "3b5c881f9bef883ec03423c9691db043"
+              user: "593e36a29c5001",
+              pass: "8d46480268a095"
             }
           });
 

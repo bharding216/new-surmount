@@ -1,15 +1,21 @@
 <script>
+    import { enhance } from '$app/forms';
     export let form;
+
+    let showOverlay = false;
 </script>
 
-<div id="formOverlay" style="display: none;">
-    <div class="overlay-content" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
-        <div class="spinner-grow text-light" role="status" style="width: 2rem; height: 2rem;">
-            <span class="sr-only">Sending your message...</span>
+{#if showOverlay}
+    <div id="formOverlay">
+        <div class="overlay-content" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+            <div class="spinner-grow text-light" role="status" style="width: 2rem; height: 2rem;">
+                <span class="sr-only">Sending your message...</span>
+            </div>
+            <p id="loading-label">Sending your message...</p>
         </div>
-        <p id="loading-label">Sending your message...</p>
     </div>
-</div>
+{/if}
+
 
 <div class="container">
     <div class="text-center py-5">
@@ -30,7 +36,13 @@
 <div class="container form-container">
     <div class="row justify-content-center pb-5">
         <div class="col-12 col-md-10 col-lg-6 form-border">
-            <form method="POST">
+            <form method="POST" use:enhance={()=>{
+                showOverlay = true
+
+                return async ({result})=>{
+                    if(result.type === "success") showOverlay = false
+                }
+            }}>
 
                 <div class="row">
                     <div class="col">
@@ -64,8 +76,8 @@
                     <div class="col">
                         <div class="form-floating mb-3">
                             <textarea class="form-control" id="message" name="message"
-                                placeholder="Tell us about your project" style="height: 150px"></textarea>
-                            <label for="message">Tell us about your project</label>
+                                placeholder="Tell us about your vision" style="height: 150px"></textarea>
+                            <label for="message">Tell us about your vision</label>
                         </div>
                     </div>
                 </div>
@@ -121,6 +133,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #loading-label {
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
 
