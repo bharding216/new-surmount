@@ -136,12 +136,12 @@
                                 <option value="$10,000 - $20,000">$10,000 - $20,000</option>
                             </select>
 
-                            <p class="text-muted">Pricing is always negotiable!</p>
+                            <p class="text-muted">Pricing is always negotiable</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="g-recaptcha mb-3" data-sitekey={recaptcha_site_key}></div>
+                <div class="g-recaptcha mb-3" data-sitekey={recaptcha_site_key} style="transform:scale(0.8); transform-origin:0 0"></div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
 
