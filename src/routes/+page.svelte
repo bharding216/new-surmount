@@ -81,13 +81,13 @@
 		</div>
 	
 		<div class="row justify-content-center text-center pb-5">
-			<div class="row pb-5">
-				<div class="col d-flex align-items-center flex-column justify-content-center portfolio-text">
+			<div class="row pb-5 mb-3">
+				<div class="col-12 col-sm-6 d-flex align-items-center flex-column justify-content-center portfolio-text order-1">
 					<h3>Good-lookin' websites</h3>
 					<p>We're industry agnostic, having worked with interior designers, engineering corporations, and legal firms.</p>
 				</div>
 	
-				<div class="col d-flex align-items-center justify-content-center">
+				<div class="col-12 col-sm-6 d-flex align-items-center justify-content-center order-2">
 					<a href="/portfolio">
 						<img src={ebWebsite} alt="A screenshot of a website" class="image-size image-shadow"/>				
 					</a>
@@ -95,25 +95,25 @@
 			</div>
 	
 			<div class="row pb-5">
-				<div class="col d-flex align-items-center flex-column justify-content-center">
+				<div class="col-12 col-sm-6 order-2 d-flex align-items-center flex-column justify-content-center">
 					<a href="/portfolio">
 						<img src={toddlyWebsite} alt="A screenshot of a website" class="image-size image-shadow"/>
 					</a>
 				</div>
 	
-				<div class="col d-flex align-items-center flex-column justify-content-center portfolio-text">
+				<div class="col-12 col-sm-6 order-1 order-sm-2 d-flex align-items-center flex-column justify-content-center portfolio-text">
 					<h3>Web page magic <i class="fa-solid fa-wand-magic-sparkles" style="font-size: 22px;"></i></h3>
 					<p>Need front-end design work? Custom API calls? We got you covered.</p>
 				</div>
 			</div>
 	
 			<div class="row pb-5">
-				<div class="col d-flex align-items-center flex-column justify-content-center portfolio-text">
+				<div class="col-12 col-sm-6 order-1 order-sm-2 d-flex align-items-center flex-column justify-content-center portfolio-text">
 					<h3><i>Smooooth</i> business processes</h3>
 					<p>We'll write custom code to help improve your visibility over your business processes.</p>
 				</div>
 	
-				<div class="col d-flex align-items-center justify-content-center">
+				<div class="col-12 col-sm-6 order-2 d-flex align-items-center justify-content-center">
 					<a href="/portfolio">
 						<img src={customCode} alt="A screenshot of a website" class="image-size image-shadow"/>
 					</a>
@@ -145,10 +145,6 @@
 
 
 <style>
-	.gameplan-col {
-		padding: 0px 25px;
-
-	}
 
 	.gameplan-content {
 		padding: 20px;
@@ -176,11 +172,52 @@
 		.portfolio-text {
 			padding: 0px 25px;
 		}
+
+		#web-builders {
+			width: 100%;
+			height: auto;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+
+		.gameplan-col {
+			padding: 0px;
+		}
 	}
 
-	@media (min-width: 769px) {
+	@media (min-width: 769px) and (max-width: 991px) {
 		.portfolio-text {
 			padding: 0px 50px;
+		}
+
+		#web-builders {
+			width: 100%;
+			height: auto;
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+
+		.gameplan-col {
+			padding: 0px 20px;
+		}
+
+	}
+	
+
+	@media (min-width: 992px) {
+		.portfolio-text {
+			padding: 0px 50px;
+		}
+
+		#web-builders {
+			width: 100%;
+			height: auto;
+			padding-left: 75px;
+			padding-right: 75px;
+		}
+
+		.gameplan-col {
+			padding: 0px 25px;
 		}
 	}
 
