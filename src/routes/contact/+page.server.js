@@ -1,8 +1,29 @@
 import nodemailer from 'nodemailer';
+import { recaptcha_secret_key, mailtrap_password } from '$env/static/private'
 
 export const actions = {
     default: async ({ request }) => {
         const data = await request.formData();
+
+        // Verify reCAPTCHA
+        const response = await fetch('https://www.google.com/recaptcha/api/siteverify', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: `secret=${recaptcha_secret_key}&response=${data.get('g-recaptcha-response')}`
+        });
+
+        const recaptcha = await response.json();
+
+        if (!recaptcha.success) {
+            return {
+                status: 400,
+                body: {
+                    error: 'reCAPTCHA failed'
+                }
+            }
+        }
 
         // Production
         var transport = nodemailer.createTransport({
@@ -10,7 +31,7 @@ export const actions = {
             port: 587,
             auth: {
               user: "api",
-              pass: "3b5c881f9bef883ec03423c9691db043"
+              pass: mailtrap_password
             }
           });
 

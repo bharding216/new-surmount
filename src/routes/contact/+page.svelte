@@ -1,12 +1,30 @@
 <script>
     import { enhance } from '$app/forms';
+    import { onMount } from 'svelte';
     export let form;
+    export let data;
 
     let formElement;
     let showOverlay = false;
     let formSuccess = false;
     let formSuccessMessage = "";
+
+    onMount(async () => {
+        const script = document.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js';
+        script.async = true;
+        script.defer = true;
+
+        script.addEventListener('load', () => {
+            // Google reCAPTCHA script has loaded
+        });
+
+        document.body.appendChild(script);
+    });
+
+
 </script>
+
 
 {#if showOverlay}
     <div id="formOverlay">
@@ -98,7 +116,7 @@
 
                 <div class="row">
                     <div class="col">
-                        <div class="form-floating mb-5">
+                        <div class="form-floating mb-3">
                             <select class="form-select" style="padding-top: 12px;" name="budget" id="budget">
                                 <option selected disabled value="">What's your budget?</option>
                                 <option value="Less than $5,000">Less than $5,000</option>
@@ -110,6 +128,8 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="g-recaptcha mb-3" data-sitekey={data.recaptcha_site_key}></div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
 
