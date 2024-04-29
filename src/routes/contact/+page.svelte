@@ -1,8 +1,15 @@
 <script>
-
-
+    export let form;
 </script>
 
+<div id="formOverlay" style="display: none;">
+    <div class="overlay-content" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+        <div class="spinner-grow text-light" role="status" style="width: 2rem; height: 2rem;">
+            <span class="sr-only">Sending your message...</span>
+        </div>
+        <p id="loading-label">Sending your message...</p>
+    </div>
+</div>
 
 <div class="container">
     <div class="text-center py-5">
@@ -10,7 +17,15 @@
     </div>
 </div>
 
-
+{#if form}
+    {#if form?.body.success}
+        <div class="container pb-3 px-5">
+            <div class="alert alert-success" role="alert">
+                {form?.body.message}
+            </div>
+        </div>
+    {/if}
+{/if}
 
 <div class="container form-container">
     <div class="row justify-content-center pb-5">
@@ -92,6 +107,20 @@
             padding-left: 30px;
             padding-right: 30px;
         }
+    }
+
+    #formOverlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1080;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
