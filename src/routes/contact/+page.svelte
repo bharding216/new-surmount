@@ -1,8 +1,9 @@
 <script>
     import { enhance } from '$app/forms';
     import { onMount } from 'svelte';
+    import { PUBLIC_recaptcha_site_key } from '$env/static/public'
     export let form;
-    export let data;
+    // export let data;
 
     let formElement;
     let showOverlay = false;
@@ -129,7 +130,7 @@
                     </div>
                 </div>
 
-                <div class="g-recaptcha mb-3" data-sitekey={data.recaptcha_site_key}></div>
+                <div class="g-recaptcha mb-3" data-sitekey={PUBLIC_recaptcha_site_key}></div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
 
