@@ -31,3 +31,13 @@
     width: 100%;
     height: auto;
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+
+}

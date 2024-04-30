@@ -35,7 +35,7 @@
 		<div class="py-5">
 			<div class="pt-5">
 				<div class="row mb-5 text-center">
-					<h1>Our Gameplan</h1>
+					<h1>Our Game Plan</h1>
 				</div>
 			</div>
 		
@@ -135,7 +135,7 @@
 <div class="container">
 	<section>
 		<div class="row text-center pt-5 mt-5 pb-5">
-			<h2 class="pb-4">Let's talk about your next big idea</h2>
+			<h1 class="pb-4">Let's talk about your next big idea</h1>
 			<a href="/contact"><button type="button" class="btn btn-primary">Reach out</button></a>  
 		</div>
 	</section>

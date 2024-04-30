@@ -13,10 +13,10 @@
         <div class="row mb-3 justify-content-center">
             <div class="col-12 col-md-6 align-items-center d-flex">
                 <div class="text-center">
-                    <h1 class="pb-5">Let's Partner Up</h1>
+                    <h1 class="pb-5">Howdy there!</h1>
 
                     <p>
-                        Hi there! I'm Brandon. <a href="/">Surmount</a> is my freelance web development business. 
+                        I'm Brandon, and <a href="/">Surmount</a> is my freelance web development business. 
                         I'll be working directly with you to create a website that is not only visually stunning,
                         but also optimized for performance and user experience.
                     </p>
