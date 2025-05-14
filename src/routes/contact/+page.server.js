@@ -1,5 +1,5 @@
 import nodemailer from 'nodemailer';
-import { recaptcha_secret_key, mailtrap_password } from '$env/static/private'
+import { recaptcha_secret_key, AWS_SES_PASSWORD } from '$env/static/private'
 
 export const actions = {
     default: async ({ request }) => {
@@ -31,11 +31,11 @@ export const actions = {
 
         // Production
         var transport = nodemailer.createTransport({
-            host: "live.smtp.mailtrap.io",
+            host: "email-smtp.us-east-2.amazonaws.com",
             port: 587,
             auth: {
-              user: "api",
-              pass: mailtrap_password
+              user: "AKIAXHBWGT3G6EXNX5OD",
+              pass: AWS_SES_PASSWORD
             }
           });
 
