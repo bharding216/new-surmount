@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>About | Custom Software Developer</title>
+	<meta name="description" content="Brandon Harding - Full-stack developer specializing in custom software, web applications, mobile apps (iOS & Android), and business automation solutions." />
 </svelte:head>
 
 <script>
@@ -13,21 +13,22 @@
         <div class="row mb-3 justify-content-center">
             <div class="col-12 col-md-6 align-items-center d-flex">
                 <div class="text-center">
-                    <h1 class="pb-5">Howdy there!</h1>
+                    <h1 class="pb-5">Hi there!</h1>
 
                     <p>
-                        I'm Brandon, and <a href="/">Surmount</a> is my freelance web development business. 
-                        I'll be working directly with you to create a website that is not only visually stunning,
-                        but also optimized for performance and user experience.
+                        I'm Brandon, and <a href="/">Surmount</a> is my custom software development business. 
+                        I work directly with business owners and founders to build software solutions that streamline operations,
+                        automate workflows, and replace manual processes with efficient systems.
                     </p>
 
                     <p>
-                        I'm a full-stack developer with experience in front-end and back-end technologies.
-                        I specialize in building responsive websites, web applications, and e-commerce sites.
+                        I'm a full-stack developer specializing in custom web applications, mobile apps (iOS & Android), 
+                        internal tools, dashboards, and automation systems. I've built SaaS platforms serving 400+ users, 
+                        real-time bidding systems, and data pipelines that transform how businesses operate.
                     </p>
 
-                    <a href="/contact">
-                        <button type="button" class="btn btn-primary">Let's do this!</button>
+                    <a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-primary">Book a Free Strategy Call</button>
                     </a>  
                 </div>
             </div>
@@ -50,69 +51,97 @@
 
         <div class="pb-5">
             <div class="row mb-3 px-5 px-sm-0">
-                <div class="col-sm-12 col-md-4 justify-content-center mb-4 expertise-col">
+                <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
                     <div class="text-center expertise-content">
-                        <h4 class="mb-4 mt-3">Responsive Website Design</h4>
-                        <i class="fa-solid fa-laptop-code"></i>
+                        <h4 class="mb-4 mt-3">Custom Web Applications</h4>
+                        <i class="fa-solid fa-laptop-code fa-2x"></i>
                         <p class="mt-4">
-                            We'll design and develop a visually stunning website that is optimized 
-                            for seamless display across all devices.
+                            Full-stack web applications built from scratch to handle your unique business workflows, 
+                            user management, and data processing needs.
                         </p>
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-4 justify-content-center mb-4 expertise-col">
+                <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
                     <div class="text-center expertise-content">
-                        <h4 class="mb-4 mt-3">Apps & Database Integration</h4>
-                        <i class="fa-solid fa-database"></i>
+                        <h4 class="mb-4 mt-3">Mobile Applications</h4>
+                        <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
                         <p class="mt-4">
-                            We specialize in integrating apps and databases to simplify your workflows, 
-                            enhance your performance, and ensure data security.
+                            Native iOS and Android mobile applications that extend your business capabilities, 
+                            reach customers on the go, and provide seamless mobile experiences.
                         </p>
 
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-4 justify-content-center mb-4 expertise-col">
+                <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
                     <div class="text-center expertise-content">
-                        <h4 class="mb-4 mt-3">SEO & Keyword Research</h4>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <p class="mt-4">Climb the search engine ranks and drive traffic to your website with our expert SEO strategies and keyword research.</p>                    
+                        <h4 class="mb-4 mt-3">Internal Tools & Dashboards</h4>
+                        <i class="fa-solid fa-database fa-2x"></i>
+                        <p class="mt-4">
+                            Custom internal tools, reporting dashboards, and data visualization systems that give you 
+                            real-time visibility into your business operations.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
+                    <div class="text-center expertise-content">
+                        <h4 class="mb-4 mt-3">Workflow Automation</h4>
+                        <i class="fa-solid fa-arrows-rotate fa-2x"></i>
+                        <p class="mt-4">Automate repetitive tasks, integrate systems, and build data pipelines that eliminate manual work and reduce errors.</p>                    
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
+                    <div class="text-center expertise-content">
+                        <h4 class="mb-4 mt-3">APIs & Integrations</h4>
+                        <i class="fa-solid fa-plug fa-2x"></i>
+                        <p class="mt-4">Custom APIs and system integrations that connect your tools and enable seamless data flow between platforms.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
+                    <div class="text-center expertise-content">
+                        <h4 class="mb-4 mt-3">MVP Development</h4>
+                        <i class="fa-solid fa-lightbulb fa-2x"></i>
+                        <p class="mt-4">
+                            Get your startup idea to market quickly with a minimum viable product that validates your concept 
+                            and attracts early users.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
+                    <div class="text-center expertise-content">
+                        <h4 class="mb-4 mt-3">Production & Monitoring</h4>
+                        <i class="fa-solid fa-server fa-2x"></i>
+                        <p class="mt-4">Deploy, host, and monitor your applications with reliable infrastructure and monitoring tools that ensure uptime.</p>                    
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
+                    <div class="text-center expertise-content">
+                        <h4 class="mb-4 mt-3">Technical Support & Maintenance</h4>
+                        <i class="fa-solid fa-wrench fa-2x"></i>
+                        <p class="mt-4">Ongoing support, maintenance, and updates to keep your applications running smoothly and adapt to changing business needs.</p>                    
                     </div>
                 </div>
             </div>
 
-            <div class="row mb-3 px-5 px-sm-0">
-                <div class="col-sm-12 col-md-4 justify-content-center mb-4 expertise-col">
-                    <div class="text-center expertise-content">
-                        <h4 class="mb-4 mt-3">Production Monitoring Tools</h4>
-                        <i class="fa-solid fa-chart-column"></i>
-                        <p class="mt-4">Maximize your system uptime and minimize downtime with our reliable and efficient production monitoring tools.</p>
-                    </div>
-                </div>
 
-                <div class="col-sm-12 col-md-4 justify-content-center mb-4 expertise-col">
-                    <div class="text-center expertise-content">
-                        <h4 class="mb-4 mt-3">E-Commerce & Social Media Integration</h4>
-                        <i class="fa-solid fa-store"></i>
-                        <p class="mt-4">
-                            Expand your online presence, boost your sales, and connect with your customers on a 
-                            deeper level with our e-commerce and social media integration services.
-                        </p>
+        </div>
 
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4 justify-content-center mb-4 expertise-col">
-                    <div class="text-center expertise-content">
-                        <h4 class="mb-4 mt-3">Web Hosting & Backups</h4>
-                        <i class="fa-solid fa-server"></i>
-                        <p class="mt-4">Ensure your website is always up and running smoothly with our secure and reliable web hosting and backup solutions.</p>                    
-                    </div>
-                </div>
+        <div class="row mb-5 text-center">
+            <div class="col-12">
+                <h3 class="mb-4">Ready to Build Something Great?</h3>
+                <p class="mb-4">Let's discuss how we can help transform your business with custom software solutions.</p>
+                <a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-primary">Schedule Your Free Consultation</button>
+                </a>  
             </div>
-
-
         </div>
 
 
@@ -137,7 +166,7 @@
 	}
 	
 	i {
-		font-size: 50px;
+		font-size: 20px;
 	}
 
 	.expertise-col {

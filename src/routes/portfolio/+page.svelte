@@ -14,8 +14,8 @@
 </script>
 
 <svelte:head>
-	<title>Portfolio</title>
-	<meta name="description" content="San Antonio web developer" />
+	<title>Portfolio | Custom Software Solutions</title>
+	<meta name="description" content="See our custom software solutions: SaaS platforms, internal tools, automation systems, and web applications that streamline business operations." />
 </svelte:head>
 
 <div class="container">
@@ -65,12 +65,12 @@
 			<div class="portfolio-section">
 				<div class="row justify-content-center text-center pb-2 pb-md-4">
 					<div class="row pb-3">
-						<h3>Childcare Center Online Marketplace</h3>
+						<h3>Childcare Center SaaS Platform</h3>
 					</div>
 
 					<div class="row">
-						<p>A web app that connects parents with local childcare centers. Allows parents to schedule tours, get on a waitlist, and submit registration forms online.</p>
-						<p>Includes online payment processing, real-time map updates, and calendar invites through the app.</p>
+						<p><strong>Result:</strong> Built and launched a SaaS platform used by 400+ schools with automated billing and parent communications.</p>
+						<p>A complete web application that connects parents with local childcare centers. Features include online payment processing, real-time map updates, calendar integration, automated waitlist management, and registration workflows — replacing manual processes and spreadsheets.</p>
 					</div>
 				</div>
 
@@ -169,8 +169,9 @@
 		</div>
 
 		<div class="row text-center pt-5 mt-5 pb-5">
-			<h2 class="pb-4">Let's talk about your next big idea</h2>
-			<a href="/contact"><button type="button" class="btn btn-primary">Reach out</button></a>  
+			<h2 class="pb-4">Ready to Build Your Custom Solution?</h2>
+			<p class="lead pb-3">Book a free strategy call to discuss how we can streamline your business operations.</p>
+			<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-primary">Book a Free Strategy Call</button></a>  
 		</div>
 
 	</section>
