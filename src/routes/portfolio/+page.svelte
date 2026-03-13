@@ -43,7 +43,7 @@
 					</div>
 
 					<div class="row">
-						<p>Partnered with a local interior designer and saved her over 50% on her annual hosting costs.</p>
+						<p>Partnered with a local interior designer and saved her over 50% on her annual hosting costs with a <a href="/services/web-design">custom website redesign</a>.</p>
 						<p>We also provided the branding and graphic design package.</p>
 					</div>
 				</div>
@@ -79,7 +79,7 @@
 
 					<div class="row">
 						<p><strong>Result:</strong> Built and launched a SaaS platform used by 400+ schools with automated billing and parent communications.</p>
-						<p>A complete web application that connects parents with local childcare centers. Features include online payment processing, real-time map updates, calendar integration, automated waitlist management, and registration workflows — replacing manual processes and spreadsheets.</p>
+						<p>A complete <a href="/services/web-development">web application</a> that connects parents with local childcare centers. Features include online payment processing, real-time map updates, calendar integration, automated waitlist management, and registration workflows — replacing manual processes and spreadsheets.</p>
 					</div>
 				</div>
 
@@ -150,7 +150,7 @@
 					</div>
 
 					<div class="row">
-						<p>Responsive web application with e-commerce integration for shipping and payments.</p>
+						<p>Responsive web application with <a href="/services/ecommerce">e-commerce integration</a> for shipping and payments.</p>
 						<p>We also provided the branding and graphic design package.</p>
 					</div>
 				</div>
@@ -179,8 +179,9 @@
 
 		<div class="row text-center pt-5 mt-5 pb-5">
 			<h2 class="pb-4">Ready to Build Your Custom Solution?</h2>
-			<p class="lead pb-3">Book a free strategy call to discuss how we can streamline your business operations.</p>
-			<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-primary">Book a Free Strategy Call</button></a>  
+			<p class="lead pb-3">Book a free strategy call to discuss how we can streamline your business operations. Explore our <a href="/services">full range of services</a> or check out our <a href="/pricing">pricing</a>.</p>
+			<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-primary">Book a Free Strategy Call</button></a>
+			<p class="mt-3"><a href="/contact">Or send us a message</a></p>
 		</div>
 
 	</section>

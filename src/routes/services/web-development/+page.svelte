@@ -60,7 +60,7 @@
 		<div class="row mb-5">
 			<div class="col-12 text-center">
 				<h2 class="section-title mb-4"><i class="fa-solid fa-layer-group me-2"></i>What We Build</h2>
-				<p class="section-intro">Whether you need a custom dashboard to visualize your data, a client portal to streamline communications, or a full SaaS product to bring your idea to market — we build web applications tailored to your exact needs.</p>
+				<p class="section-intro">Whether you need a custom dashboard to visualize your data, a client portal to streamline communications, or a full SaaS product to bring your idea to market — we build web applications tailored to your exact needs. Looking for a standard business website instead? See our <a href="/services/web-design">web design services</a>.</p>
 			</div>
 		</div>
 		<div class="row g-4">
@@ -103,7 +103,7 @@
 				<div class="feature-card">
 					<i class="fa-solid fa-cloud fa-2x"></i>
 					<h3>SaaS Applications</h3>
-					<p>Software-as-a-Service products built from the ground up. Multi-tenant architecture, subscription billing, user management, and scalable infrastructure to launch and grow your product.</p>
+					<p>Software-as-a-Service products built from the ground up. Multi-tenant architecture, subscription billing, user management, and scalable infrastructure to launch and grow your product. Need a mobile app to complement your SaaS? Explore our <a href="/services/mobile-apps">mobile app development</a> services.</p>
 				</div>
 			</div>
 		</div>
@@ -149,7 +149,7 @@
 				</div>
 			</div>
 		</div>
-		<p class="text-center mt-4 tech-note">We select the right tools for each project. Whether you need a lightweight SvelteKit app, a React frontend, or a robust backend with REST or GraphQL APIs — we build solutions that fit your requirements and budget.</p>
+		<p class="text-center mt-4 tech-note">We select the right tools for each project. Whether you need a lightweight SvelteKit app, a React frontend, or a robust backend with REST or GraphQL APIs — we build solutions that fit your requirements and budget. Browse our <a href="/portfolio">portfolio</a> to see examples of our work.</p>
 	</section>
 
 	<!-- Development Process Section -->
@@ -186,7 +186,7 @@
 				<div class="process-card">
 					<div class="process-number">4</div>
 					<h3><i class="fa-solid fa-rocket me-2"></i>Launch & Support</h3>
-					<p>We deploy your application, train your team, and provide documentation. Ongoing support and maintenance options are available to keep your app running smoothly.</p>
+					<p>We deploy your application, train your team, and provide documentation. Ongoing <a href="/services/website-maintenance">support and maintenance</a> options are available to keep your app running smoothly.</p>
 				</div>
 			</div>
 		</div>
@@ -197,7 +197,7 @@
 		<div class="row">
 			<div class="col-12 text-center">
 				<h2 class="section-title mb-4"><i class="fa-solid fa-tag me-2"></i>Investment</h2>
-				<p class="section-intro mb-4">Custom web application development projects typically start from <strong>$5,000</strong>, depending on scope and complexity. Simple dashboards or internal tools may fall in the lower range, while full SaaS platforms or complex integrations require a larger investment. Every project is different — we provide transparent, fixed-price quotes after our discovery call so you know exactly what to expect.</p>
+				<p class="section-intro mb-4">Custom web application development projects typically start from <strong>$5,000</strong>, depending on scope and complexity. Simple dashboards or internal tools may fall in the lower range, while full SaaS platforms or complex integrations require a larger investment. Visit our <a href="/pricing">pricing page</a> for more details. Every project is different — we provide transparent, fixed-price quotes after our discovery call so you know exactly what to expect.</p>
 				<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
 					<button type="button" class="btn btn-primary btn-cta">Get a Custom Quote</button>
 				</a>
@@ -225,7 +225,7 @@
 					</details>
 					<details class="faq-item">
 						<summary>Can you fix or improve my existing website?</summary>
-						<p>Yes. Whether you need someone to fix a broken website, add new features to an existing app, or modernize legacy code — we can help. We'll assess your current setup, identify issues, and propose a plan to get things working or upgraded. Many clients come to us saying "I need to hire someone to fix my website" and we deliver.</p>
+						<p>Yes. Whether you need someone to fix a broken website, add new features to an existing app, or modernize legacy code — we can help. We'll assess your current setup, identify issues, and propose a plan to get things working or upgraded. Many clients come to us saying "I need to hire someone to fix my website" and we deliver. Not sure where to start? Read our guide on <a href="/blog/what-to-look-for-in-a-web-developer">what to look for in a web developer</a>.</p>
 					</details>
 					<details class="faq-item">
 						<summary>Do you work with businesses outside San Antonio?</summary>
@@ -233,9 +233,42 @@
 					</details>
 					<details class="faq-item">
 						<summary>What happens after the project is complete?</summary>
-						<p>We provide full documentation, handoff training, and source code. Many clients choose ongoing maintenance plans for updates, security patches, and feature additions. We're here to support your application long-term — you're not left on your own after launch.</p>
+						<p>We provide full documentation, handoff training, and source code. Many clients choose ongoing maintenance plans for updates, security patches, and feature additions. We're here to support your application long-term — you're not left on your own after launch. Have questions? <a href="/contact">Reach out anytime</a>.</p>
 					</details>
 				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Related Services -->
+	<section class="content-section py-4">
+		<div class="row mb-4 text-center">
+			<h2 class="section-title">Related Services</h2>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-design" class="related-link">
+					<i class="fa-solid fa-palette fa-2x"></i>
+					<p>Web Design</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/mobile-apps" class="related-link">
+					<i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+					<p>Mobile Apps</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/ecommerce" class="related-link">
+					<i class="fa-solid fa-cart-shopping fa-2x"></i>
+					<p>E-Commerce</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/speed-optimization" class="related-link">
+					<i class="fa-solid fa-gauge-high fa-2x"></i>
+					<p>Speed Optimization</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -492,6 +525,11 @@
 		font-size: 0.9rem;
 		color: var(--dark-green);
 	}
+
+	.related-link { text-decoration: none; color: var(--dark-green); }
+	.related-link:hover { color: var(--medium-green); }
+	.related-link i { display: block; margin-bottom: 8px; }
+	.related-link p { font-size: 0.9rem; font-weight: 600; }
 
 	@media (max-width: 768px) {
 		.hero-title {

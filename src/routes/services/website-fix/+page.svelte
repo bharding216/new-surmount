@@ -51,7 +51,7 @@
 		<div class="row py-5">
 			<div class="col-12 col-md-8 mx-auto text-center">
 				<h1 class="pb-3">Website Not Working? We Can Fix It.</h1>
-				<p class="lead">When your website is broken, every minute costs you customers. Whether you're seeing error messages, your site looks terrible on mobile, pages won't load, your contact form stopped working, or you suspect you've been hacked — we diagnose the problem fast and fix it right. No long-term contracts. No confusing technical jargon. Just a working website, usually within 24–48 hours.</p>
+				<p class="lead">When your website is broken, every minute costs you customers. Whether you're seeing error messages, your site looks terrible on mobile, pages won't load, your contact form stopped working, or you suspect you've been hacked — we diagnose the problem fast and fix it right. Read our post on <a href="/blog/why-is-my-website-slow">why websites slow down</a> if speed is your issue. No long-term contracts. No confusing technical jargon. Just a working website, usually within 24–48 hours.</p>
 				<div class="mt-4">
 					<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
 						<button type="button" class="btn btn-primary btn-lg">Get Help Now</button>
@@ -83,7 +83,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-mobile-screen fa-2x"></i>
 						<h4 class="mb-3 mt-3">Mobile & Responsiveness Issues</h4>
-						<p>Your website looks great on desktop but is a mess on phones? Text too small to read, buttons impossible to tap, images overflowing off the screen, horizontal scrolling where there shouldn't be any? Mobile issues kill your business because over half of all web traffic comes from phones. We fix responsive design problems, rebuild broken layouts, and make sure your site works perfectly on every device — from the smallest phone to the largest desktop monitor.</p>
+						<p>Your website looks great on desktop but is a mess on phones? Text too small to read, buttons impossible to tap, images overflowing off the screen, horizontal scrolling where there shouldn't be any? Mobile issues kill your business because over half of all web traffic comes from phones. Our guide on <a href="/blog/website-not-mobile-friendly">mobile-friendliness problems</a> explains the full impact. We fix responsive design problems, rebuild broken layouts, and make sure your site works perfectly on every device — from the smallest phone to the largest desktop monitor.</p>
 					</div>
 				</div>
 
@@ -160,7 +160,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-phone fa-2x"></i>
 						<h4 class="mb-3 mt-3">1. Tell Us What's Wrong</h4>
-						<p>Book a free call or send us a message describing the problem. Screenshots, error messages, and a description of when the issue started are helpful, but not required. We'll ask the right questions to understand the situation and assess the urgency.</p>
+						<p><a href="/contact">Book a free call</a> or send us a message describing the problem. Screenshots, error messages, and a description of when the issue started are helpful, but not required. We'll ask the right questions to understand the situation and assess the urgency.</p>
 					</div>
 				</div>
 
@@ -194,7 +194,7 @@
 			<div class="col-12 col-md-8">
 				<details class="faq-item">
 					<summary>How much does it cost to fix my website?</summary>
-					<p>It depends on the issue. Simple fixes like broken forms, SSL errors, or minor CSS issues typically range from $100–$300. More complex problems like hack recovery, major layout rebuilds, or server migrations range from $300–$1,000+. We always provide a clear quote after diagnosing the issue — you'll know the exact cost before any paid work begins.</p>
+					<p>It depends on the issue. Simple fixes like broken forms, SSL errors, or minor CSS issues typically range from $100–$300. More complex problems like hack recovery, major layout rebuilds, or server migrations range from $300–$1,000+. We always provide a clear quote after diagnosing the issue — you'll know the exact cost before any paid work begins. See our <a href="/pricing">pricing page</a> for general ranges.</p>
 				</details>
 
 				<details class="faq-item">
@@ -209,7 +209,7 @@
 
 				<details class="faq-item">
 					<summary>My website isn't mobile friendly — can you fix that?</summary>
-					<p>Absolutely. Making a non-responsive website work properly on mobile devices is one of our most common projects. We can either fix specific mobile issues on your existing site or implement a full responsive redesign that makes your site look great on phones, tablets, and desktops. With Google's mobile-first indexing, a mobile-friendly site is essential for both user experience and SEO.</p>
+					<p>Absolutely. Making a non-responsive website work properly on mobile devices is one of our most common projects. We can either fix specific mobile issues on your existing site or implement a full responsive <a href="/services/web-design">redesign</a> that makes your site look great on phones, tablets, and desktops. With Google's mobile-first indexing, a mobile-friendly site is essential for both user experience and SEO.</p>
 				</details>
 
 				<details class="faq-item">
@@ -219,8 +219,40 @@
 
 				<details class="faq-item">
 					<summary>Do you offer ongoing support after the fix?</summary>
-					<p>Yes. After fixing your immediate issue, we can set you up with a maintenance plan to prevent future problems. This includes regular updates, security monitoring, backups, and priority support. However, there's no obligation — if you just need a one-time fix, that's perfectly fine too.</p>
+					<p>Yes. After fixing your immediate issue, we can set you up with a <a href="/services/website-maintenance">website maintenance plan</a> to prevent future problems. This includes regular updates, security monitoring, backups, and priority support. However, there's no obligation — if you just need a one-time fix, that's perfectly fine too.</p>
 				</details>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-4">
+		<div class="row mb-4 text-center">
+			<h2>Related Services</h2>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/website-maintenance" class="related-link">
+					<i class="fa-solid fa-shield-halved fa-2x"></i>
+					<p>Website Maintenance</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/speed-optimization" class="related-link">
+					<i class="fa-solid fa-gauge-high fa-2x"></i>
+					<p>Speed Optimization</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/seo" class="related-link">
+					<i class="fa-solid fa-magnifying-glass-chart fa-2x"></i>
+					<p>SEO Services</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-design" class="related-link">
+					<i class="fa-solid fa-palette fa-2x"></i>
+					<p>Web Design</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -304,6 +336,11 @@
 		font-size: 1.25rem;
 		font-weight: 300;
 	}
+
+	.related-link { text-decoration: none; color: var(--dark-green); }
+	.related-link:hover { color: var(--medium-green); }
+	.related-link i { display: block; margin-bottom: 8px; }
+	.related-link p { font-size: 0.9rem; font-weight: 600; }
 
 	@media (max-width: 768px) {
 		.hero-section {

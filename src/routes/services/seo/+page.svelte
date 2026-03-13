@@ -76,7 +76,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-file-lines fa-2x"></i>
 						<h4 class="mb-3 mt-3">On-Page SEO</h4>
-						<p>We optimize every page of your website for the keywords your customers are actually searching for. This includes title tags, meta descriptions, header structure, image alt text, internal linking, URL structure, and content optimization. We make sure Google can easily understand what each page is about and rank it for the right search queries. On-page SEO is the foundation of every successful search strategy.</p>
+						<p>We optimize every page of your website for the keywords your customers are actually searching for. This includes title tags, meta descriptions, header structure, image alt text, internal linking, URL structure, and content optimization. We make sure Google can easily understand what each page is about and rank it for the right search queries. On-page SEO is the foundation of every successful search strategy — and it starts with a well-structured <a href="/services/web-design">web design</a>.</p>
 					</div>
 				</div>
 
@@ -100,7 +100,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-gear fa-2x"></i>
 						<h4 class="mb-3 mt-3">Technical SEO</h4>
-						<p>Technical issues can silently kill your search rankings. We audit and fix crawl errors, broken links, slow page speed, mobile usability issues, duplicate content, missing sitemaps, robots.txt problems, and indexing issues. We also implement structured data markup so Google can display rich results for your website, including star ratings, pricing, and FAQ snippets.</p>
+						<p>Technical issues can silently kill your search rankings. We audit and fix crawl errors, broken links, <a href="/services/speed-optimization">slow page speed</a>, mobile usability issues, duplicate content, missing sitemaps, robots.txt problems, and indexing issues. We also implement structured data markup so Google can display rich results for your website, including star ratings, pricing, and FAQ snippets.</p>
 					</div>
 				</div>
 
@@ -116,7 +116,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-chart-line fa-2x"></i>
 						<h4 class="mb-3 mt-3">Tracking & Reporting</h4>
-						<p>We set up Google Analytics, Google Search Console, and rank tracking tools so you can see exactly how your SEO is performing. Monthly reports show keyword rankings, organic traffic growth, click-through rates, and conversion metrics. You'll always know what's working and where we're focusing next.</p>
+						<p>We set up Google Analytics, Google Search Console, and rank tracking tools so you can see exactly how your SEO is performing. Monthly reports show keyword rankings, organic traffic growth, click-through rates, and conversion metrics. You'll always know what's working and where we're focusing next. See results we've achieved in our <a href="/portfolio">portfolio</a>.</p>
 					</div>
 				</div>
 			</div>
@@ -137,7 +137,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-magnifying-glass fa-2x"></i>
 						<h4 class="mb-3 mt-3">1. SEO Audit</h4>
-						<p>We start with a comprehensive audit of your current website to identify technical issues, content gaps, and missed opportunities. This gives us a clear picture of where you stand and what needs to be fixed first.</p>
+						<p>We start with a comprehensive audit of your current website to identify technical issues, content gaps, and missed opportunities. This gives us a clear picture of where you stand and what needs to be fixed first. <a href="/contact">Get in touch</a> to request your free audit.</p>
 					</div>
 				</div>
 
@@ -161,7 +161,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-arrow-trend-up fa-2x"></i>
 						<h4 class="mb-3 mt-3">4. Monitor & Grow</h4>
-						<p>SEO is an ongoing process. We continuously monitor your rankings, publish new content, build authority, and refine our strategy based on real data to keep your traffic growing month over month.</p>
+						<p>SEO is an ongoing process. We continuously monitor your rankings, publish new content, build authority, and refine our strategy based on real data to keep your traffic growing month over month. Pair this with our <a href="/services/website-maintenance">website maintenance</a> service for a fully managed online presence.</p>
 					</div>
 				</div>
 			</div>
@@ -179,7 +179,7 @@
 			<div class="col-12 col-md-8">
 				<details class="faq-item">
 					<summary>Why isn't my website showing up on Google?</summary>
-					<p>There are many reasons your website might not appear on Google. Common causes include missing or poorly written meta tags, no sitemap submitted to Google Search Console, slow page speed, thin or duplicate content, technical crawl errors, or simply not having enough relevant content for Google to index. Our SEO audit will identify exactly what's holding you back and create a plan to fix it.</p>
+					<p>There are many reasons your website might not appear on Google. Common causes include missing or poorly written meta tags, no sitemap submitted to Google Search Console, <a href="/blog/why-is-my-website-slow">slow page speed</a>, thin or duplicate content, technical crawl errors, or simply not having enough relevant content for Google to index. Our SEO audit will identify exactly what's holding you back and create a plan to fix it.</p>
 				</details>
 
 				<details class="faq-item">
@@ -189,12 +189,12 @@
 
 				<details class="faq-item">
 					<summary>How do I get my business on Google Maps?</summary>
-					<p>You need a properly set up and optimized Google Business Profile. We'll claim or create your listing, verify your business, add complete and accurate information, upload photos, set up service areas, and implement a review strategy. Combined with local SEO on your website, this gets your business showing up in the Google Maps local pack.</p>
+					<p>You need a properly set up and optimized Google Business Profile. We'll claim or create your listing, verify your business, add complete and accurate information, upload photos, set up service areas, and implement a review strategy. Combined with local SEO on your website, this gets your business showing up in the Google Maps local pack. Read our full guide on <a href="/blog/how-to-get-your-business-on-google">how to get your business on Google</a>.</p>
 				</details>
 
 				<details class="faq-item">
 					<summary>Do I need SEO if I already run Google Ads?</summary>
-					<p>Yes. Google Ads drive traffic only while you're paying. SEO builds lasting organic visibility that generates free traffic 24/7. The best strategy combines both — ads for immediate results while SEO builds long-term, sustainable traffic. Over time, strong SEO can significantly reduce your ad spend while increasing total traffic.</p>
+					<p>Yes. Google Ads drive traffic only while you're paying. SEO builds lasting organic visibility that generates free traffic 24/7. The best strategy combines both — ads for immediate results while SEO builds long-term, sustainable traffic. Over time, strong SEO can significantly reduce your ad spend while increasing total traffic. View our <a href="/pricing">pricing</a> to see available SEO packages.</p>
 				</details>
 
 				<details class="faq-item">
@@ -206,6 +206,38 @@
 					<summary>Can you guarantee first-page rankings?</summary>
 					<p>No legitimate SEO provider can guarantee specific rankings because Google's algorithm considers hundreds of factors and changes frequently. What we can guarantee is that we'll implement proven best practices, provide transparent reporting, and work tirelessly to improve your visibility. Our clients consistently see significant ranking improvements and traffic growth.</p>
 				</details>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-4">
+		<div class="row mb-4 text-center">
+			<h2>Related Services</h2>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-design" class="related-link">
+					<i class="fa-solid fa-palette fa-2x"></i>
+					<p>Web Design</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/speed-optimization" class="related-link">
+					<i class="fa-solid fa-gauge-high fa-2x"></i>
+					<p>Speed Optimization</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/website-maintenance" class="related-link">
+					<i class="fa-solid fa-wrench fa-2x"></i>
+					<p>Website Maintenance</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/landing-pages" class="related-link">
+					<i class="fa-solid fa-file-lines fa-2x"></i>
+					<p>Landing Pages</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -289,6 +321,11 @@
 		font-size: 1.25rem;
 		font-weight: 300;
 	}
+
+	.related-link { text-decoration: none; color: var(--dark-green); }
+	.related-link:hover { color: var(--medium-green); }
+	.related-link i { display: block; margin-bottom: 8px; }
+	.related-link p { font-size: 0.9rem; font-weight: 600; }
 
 	@media (max-width: 768px) {
 		.hero-section {

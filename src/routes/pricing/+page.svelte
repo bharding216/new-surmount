@@ -34,7 +34,7 @@
         <div class="text-center">
             <h1 class="py-5">Pricing</h1>
             <div class="value-proposition mb-4">
-                <p class="lead">Custom software is tailored and scoped to your specific needs — prices vary based on complexity, features, and timeline. Here are typical ranges to help you decide if we're a good fit.</p>
+                <p class="lead">Custom software is tailored and scoped to your specific needs — prices vary based on complexity, features, and timeline. Here are typical ranges to help you decide if we're a good fit. For a deeper dive, read our blog post on <a href="/blog/how-much-does-a-website-cost">how much a website costs</a>.</p>
             </div>
         </div>
 
@@ -99,17 +99,17 @@
                         <!-- Responsive Website -->
                         <div class="project-category mb-4">
                             <div class="d-flex justify-content-between align-items-start mb-2">
-                                <h6 class="category-title">Responsive Website</h6>
+                                <h6 class="category-title"><a href="/services/web-design">Responsive Website</a></h6>
                                 <span class="price-badge">$1,000 - $10,000</span>
                             </div>
-                            <p class="category-description"><strong>Typical use cases:</strong> Marketing sites, portfolios, landing pages, small business websites</p>
-                            <p class="category-description"><strong>What's included:</strong> Responsive design, SEO optimization, contact forms, CMS integration</p>
+                            <p class="category-description"><strong>Typical use cases:</strong> Marketing sites, portfolios, <a href="/services/landing-pages">landing pages</a>, small business websites</p>
+                            <p class="category-description"><strong>What's included:</strong> Responsive design, <a href="/services/seo">SEO optimization</a>, contact forms, CMS integration</p>
                         </div>
 
                         <!-- Web Application with Database -->
                         <div class="project-category mb-4">
                             <div class="d-flex justify-content-between align-items-start mb-2">
-                                <h6 class="category-title">Web Application with Database</h6>
+                                <h6 class="category-title"><a href="/services/web-development">Web Application with Database</a></h6>
                                 <span class="price-badge">$5,000 - $20,000</span>
                             </div>
                             <p class="category-description"><strong>Typical use cases:</strong> Customer dashboards, internal tools, admin portals, data management systems</p>
@@ -130,7 +130,7 @@
                         <!-- E-Commerce Website -->
                         <div class="project-category mb-4">
                             <div class="d-flex justify-content-between align-items-start mb-2">
-                                <h6 class="category-title">E-Commerce Website</h6>
+                                <h6 class="category-title"><a href="/services/ecommerce">E-Commerce Website</a></h6>
                                 <span class="price-badge">$5,000 - $20,000</span>
                             </div>
                             <p class="category-description"><strong>Typical use cases:</strong> Online stores, subscription services, marketplace platforms</p>
@@ -157,7 +157,7 @@
                         <h3 class="m-0">Real Projects We've Delivered</h3>
                     </div>
                     <div class="mx-3 py-3">
-                        <p class="mb-4">Here are some examples to help you understand where your project might fall:</p>
+                        <p class="mb-4">Here are some examples to help you understand where your project might fall. See more in our <a href="/portfolio">full portfolio</a>.</p>
                         
                         <div class="row">
                             <div class="col-md-4 mb-4">

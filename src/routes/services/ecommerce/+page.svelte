@@ -85,7 +85,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-boxes-stacked fa-2x"></i>
 						<h4 class="mb-3 mt-3">Product Catalog</h4>
-						<p>Beautifully organized product pages with high-quality image galleries, detailed descriptions, variant options like size and color, and smart filtering so customers can find exactly what they're looking for. We structure your catalog for easy management so you can add, edit, and organize products without needing a developer. Your product pages will be optimized for search engines to attract organic traffic.</p>
+						<p>Beautifully organized product pages with high-quality image galleries, detailed descriptions, variant options like size and color, and smart filtering so customers can find exactly what they're looking for. We structure your catalog for easy management so you can add, edit, and organize products without needing a developer. Your product pages will be optimized for search engines to attract organic traffic. Pair your store with our <a href="/services/seo">SEO services</a> to maximize your search visibility.</p>
 					</div>
 				</div>
 
@@ -140,7 +140,7 @@
 		<div class="py-5">
 			<div class="row mb-5 text-center">
 				<h2>Platforms We Work With</h2>
-				<p class="lead">We'll recommend the best platform for your business size, budget, and goals</p>
+				<p class="lead">We'll recommend the best platform for your business size, budget, and goals — browse our <a href="/portfolio">portfolio</a> to see stores we've built</p>
 			</div>
 
 			<div class="row mb-3 px-5 px-sm-0">
@@ -182,7 +182,7 @@
 			<div class="col-12 col-md-8">
 				<details class="faq-item">
 					<summary>How much does an e-commerce website cost?</summary>
-					<p>Our e-commerce projects start at $5,000 for a fully functional online store. The final price depends on the number of products, custom features, integrations, and design complexity. During our free strategy call, we'll discuss your needs and provide a detailed quote with no hidden fees.</p>
+					<p>Our e-commerce projects start at $5,000 for a fully functional online store. The final price depends on the number of products, custom features, integrations, and design complexity — read our guide on <a href="/blog/how-much-does-a-website-cost">how much a website costs</a> for a detailed breakdown. Visit our <a href="/pricing">pricing page</a> for an overview, or schedule our free strategy call to get a detailed quote with no hidden fees.</p>
 				</details>
 
 				<details class="faq-item">
@@ -197,18 +197,50 @@
 
 				<details class="faq-item">
 					<summary>Can you migrate my existing store to a new platform?</summary>
-					<p>Yes, we handle full e-commerce migrations including products, customer data, order history, and SEO redirects. We make the transition seamless so you don't lose search rankings or customer information during the move.</p>
+					<p>Yes, we handle full e-commerce migrations including products, customer data, order history, and SEO redirects. We make the transition seamless so you don't lose search rankings or customer information during the move. <a href="/contact">Contact us</a> to discuss your migration project.</p>
 				</details>
 
 				<details class="faq-item">
 					<summary>Do you provide training on how to manage my store?</summary>
-					<p>Absolutely. After launch, we provide hands-on training so you and your team can confidently add products, process orders, manage inventory, and run promotions. We also provide documentation and video walkthroughs for future reference.</p>
+					<p>Absolutely. After launch, we provide hands-on training so you and your team can confidently add products, process orders, manage inventory, and run promotions. We also provide documentation and video walkthroughs for future reference. Need ongoing help? Explore our <a href="/services/website-maintenance">website maintenance plans</a>.</p>
 				</details>
 
 				<details class="faq-item">
 					<summary>Will my online store be mobile-friendly?</summary>
-					<p>Every e-commerce site we build is fully responsive and optimized for mobile devices. With over 60% of online shopping happening on phones, we ensure your store looks great and functions perfectly on every screen size, from desktop monitors to smartphones.</p>
+					<p>Every e-commerce site we build is fully responsive and optimized for mobile devices, built with the same mobile-first approach as our <a href="/services/web-design">web design services</a>. With over 60% of online shopping happening on phones, we ensure your store looks great and functions perfectly on every screen size, from desktop monitors to smartphones.</p>
 				</details>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-4">
+		<div class="row mb-4 text-center">
+			<h2>Related Services</h2>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-design" class="related-link">
+					<i class="fa-solid fa-palette fa-2x"></i>
+					<p>Web Design</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/seo" class="related-link">
+					<i class="fa-solid fa-magnifying-glass fa-2x"></i>
+					<p>SEO Services</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/website-maintenance" class="related-link">
+					<i class="fa-solid fa-wrench fa-2x"></i>
+					<p>Website Maintenance</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/speed-optimization" class="related-link">
+					<i class="fa-solid fa-gauge-high fa-2x"></i>
+					<p>Speed Optimization</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -292,6 +324,11 @@
 		font-size: 1.25rem;
 		font-weight: 300;
 	}
+
+	.related-link { text-decoration: none; color: var(--dark-green); }
+	.related-link:hover { color: var(--medium-green); }
+	.related-link i { display: block; margin-bottom: 8px; }
+	.related-link p { font-size: 0.9rem; font-weight: 600; }
 
 	@media (max-width: 768px) {
 		.hero-section {

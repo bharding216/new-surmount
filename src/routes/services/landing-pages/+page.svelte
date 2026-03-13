@@ -61,7 +61,7 @@
 		<div class="row py-5">
 			<div class="col-12 col-md-8 mx-auto text-center">
 				<h1 class="pb-3">Landing Page Design That Converts</h1>
-				<p class="lead">Stop sending ad traffic to your homepage. A dedicated landing page can double or triple your conversion rate by giving visitors exactly what they're looking for — a clear message, a compelling offer, and one action to take. We design high-converting landing pages for Google Ads, Facebook Ads, email campaigns, and promotions. Starting at just $500.</p>
+				<p class="lead">Stop sending ad traffic to your homepage. A dedicated landing page can double or triple your conversion rate by giving visitors exactly what they're looking for — a clear message, a compelling offer, and one action to take. We design high-converting landing pages for Google Ads, Facebook Ads, email campaigns, and promotions. Starting at just $500. <a href="/portfolio">See examples of our work</a>.</p>
 				<div class="mt-4">
 					<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
 						<button type="button" class="btn btn-primary btn-lg">Get a Free Landing Page Consultation</button>
@@ -85,7 +85,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-bullseye fa-2x"></i>
 						<h4 class="mb-3 mt-3">One Clear Goal</h4>
-						<p>The best landing pages have a single, focused objective — whether that's capturing a lead, booking a call, making a sale, or getting a signup. Unlike a homepage with multiple navigation options and distractions, a landing page eliminates everything that doesn't serve the conversion goal. Every element on the page — headline, copy, images, and buttons — works together to guide the visitor toward one specific action. This focus is what makes landing pages so much more effective than sending ad traffic to a general website page.</p>
+						<p>The best landing pages have a single, focused objective — whether that's capturing a lead, booking a call, making a sale, or getting a signup. Unlike a homepage with multiple navigation options and distractions, a landing page eliminates everything that doesn't serve the conversion goal. Every element on the page — headline, copy, images, and buttons — works together to guide the visitor toward one specific action, much like a well-crafted <a href="/services/web-design">web design</a>. This focus is what makes landing pages so much more effective than sending ad traffic to a general website page.</p>
 					</div>
 				</div>
 
@@ -125,7 +125,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-gauge-high fa-2x"></i>
 						<h4 class="mb-3 mt-3">Lightning-Fast Speed</h4>
-						<p>Every second of load time costs you conversions. Our landing pages are built lean and optimized for speed — lightweight code, compressed images, minimal scripts, and efficient hosting. We aim for sub-2-second load times so visitors can take action before they lose interest.</p>
+						<p>Every second of load time costs you conversions. Our landing pages are built lean and optimized for speed using our <a href="/services/speed-optimization">speed optimization</a> best practices — lightweight code, compressed images, minimal scripts, and efficient hosting. We aim for sub-2-second load times so visitors can take action before they lose interest.</p>
 					</div>
 				</div>
 			</div>
@@ -193,17 +193,17 @@
 
 				<details class="faq-item">
 					<summary>How much does a landing page cost?</summary>
-					<p>Our landing pages start at $500 for a single-page design with custom copy, mobile optimization, form integration, and analytics setup. More complex pages with A/B testing, advanced integrations, multi-step forms, or video production start at $1,000–$2,500. We'll provide an exact quote based on your specific needs during our consultation.</p>
+					<p>Our landing pages start at $500 for a single-page design with custom copy, mobile optimization, form integration, and analytics setup. More complex pages with A/B testing, advanced integrations, multi-step forms, or video production start at $1,000–$2,500. We'll provide an exact quote based on your specific needs during our consultation. See our <a href="/pricing">pricing page</a> for general ranges, or read our guide on <a href="/blog/how-much-does-a-website-cost">how much a website costs</a>.</p>
 				</details>
 
 				<details class="faq-item">
 					<summary>How long does it take to build a landing page?</summary>
-					<p>Most landing pages are completed within 5–10 business days from kickoff, including one round of design revisions and one round of copy revisions. If you're running ads with a tight deadline, we can accommodate rush timelines for an additional fee. We'll always give you a clear delivery date upfront.</p>
+					<p>Most landing pages are completed within 5–10 business days from kickoff, including one round of design revisions and one round of copy revisions. If you're running ads with a tight deadline, we can accommodate rush timelines for an additional fee. We'll always give you a clear delivery date upfront. <a href="/contact">Contact us</a> to get started.</p>
 				</details>
 
 				<details class="faq-item">
 					<summary>Do I need a landing page for my Google Ads?</summary>
-					<p>Yes, absolutely. Google Ads Quality Score takes into account how relevant your landing page is to your ad and keywords. A dedicated landing page that matches your ad copy improves your Quality Score, lowers your cost per click, improves your ad position, and most importantly — converts significantly better than sending traffic to your homepage or a generic page.</p>
+					<p>Yes, absolutely. Google Ads Quality Score takes into account how relevant your landing page is to your ad and keywords. A dedicated landing page combined with strong <a href="/services/seo">SEO</a> improves your Quality Score, lowers your cost per click, improves your ad position, and most importantly — converts significantly better than sending traffic to your homepage or a generic page.</p>
 				</details>
 
 				<details class="faq-item">
@@ -215,6 +215,38 @@
 					<summary>Will the landing page match my existing brand?</summary>
 					<p>Absolutely. We design every landing page to match your existing brand identity — colors, fonts, logo, and visual style. Brand consistency builds trust, and visitors should feel like the landing page is a natural extension of your business, not a disconnected, generic template.</p>
 				</details>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-4">
+		<div class="row mb-4 text-center">
+			<h2>Related Services</h2>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-design" class="related-link">
+					<i class="fa-solid fa-palette fa-2x"></i>
+					<p>Web Design</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/seo" class="related-link">
+					<i class="fa-solid fa-magnifying-glass-chart fa-2x"></i>
+					<p>SEO Services</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/speed-optimization" class="related-link">
+					<i class="fa-solid fa-gauge-high fa-2x"></i>
+					<p>Speed Optimization</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-development" class="related-link">
+					<i class="fa-solid fa-code fa-2x"></i>
+					<p>Web Development</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -298,6 +330,11 @@
 		font-size: 1.25rem;
 		font-weight: 300;
 	}
+
+	.related-link { text-decoration: none; color: var(--dark-green); }
+	.related-link:hover { color: var(--medium-green); }
+	.related-link i { display: block; margin-bottom: 8px; }
+	.related-link p { font-size: 0.9rem; font-weight: 600; }
 
 	@media (max-width: 768px) {
 		.hero-section {

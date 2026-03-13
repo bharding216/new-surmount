@@ -69,21 +69,21 @@
 				<div class="feature-card">
 					<i class="fa-solid fa-mobile-screen-button fa-2x"></i>
 					<h3>Mobile-Responsive Design</h3>
-					<p>Over 60% of web traffic comes from phones and tablets. Your site will look and work perfectly on every device — no pinching, no horizontal scrolling, just a smooth experience for every visitor.</p>
+					<p>Over 60% of web traffic comes from phones and tablets. Your site will look and work perfectly on every device — no pinching, no horizontal scrolling, just a smooth experience for every visitor. Worried your current site isn't mobile-ready? Read our guide on <a href="/blog/website-not-mobile-friendly">what to do if your website isn't mobile-friendly</a>.</p>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
 				<div class="feature-card">
 					<i class="fa-solid fa-magnifying-glass fa-2x"></i>
 					<h3>SEO-Optimized</h3>
-					<p>We build your site with search engines in mind from day one. Proper headings, meta tags, clean code, and fast loading — so you can show up when customers search for your services locally.</p>
+					<p>We build your site with search engines in mind from day one. Proper headings, meta tags, clean code, and fast loading — so you can show up when customers search for your services locally. Need more visibility? Pair your site with our <a href="/services/seo">SEO services</a> for even better results.</p>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
 				<div class="feature-card">
 					<i class="fa-solid fa-gauge-high fa-2x"></i>
 					<h3>Fast Loading</h3>
-					<p>Slow websites lose customers and rank lower on Google. We optimize images, code, and hosting so your pages load quickly. Speed matters for both user experience and search rankings.</p>
+					<p>Slow websites lose customers and rank lower on Google. We optimize images, code, and hosting so your pages load quickly. Speed matters for both user experience and search rankings. Explore our <a href="/services/speed-optimization">speed optimization services</a> for even faster load times.</p>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
@@ -104,7 +104,7 @@
 				<div class="feature-card">
 					<i class="fa-solid fa-headset fa-2x"></i>
 					<h3>Ongoing Support</h3>
-					<p>Your relationship with us doesn't end at launch. We offer website maintenance, updates, and support so your site stays secure, current, and performing well long after we hand it over.</p>
+					<p>Your relationship with us doesn't end at launch. We offer <a href="/services/website-maintenance">website maintenance</a>, updates, and support so your site stays secure, current, and performing well long after we hand it over.</p>
 				</div>
 			</div>
 		</div>
@@ -118,7 +118,7 @@
 		</div>
 		<div class="row mb-5">
 			<div class="col-12">
-				<p class="audience-intro">Whether you're a restaurant showcasing your menu and hours, a salon booking appointments online, or a contractor displaying your portfolio — a well-designed website helps you stand out and attract more customers. We've built sites for:</p>
+				<p class="audience-intro">Whether you're a restaurant showcasing your menu and hours, a salon booking appointments online, or a contractor displaying your portfolio — a well-designed website helps you stand out and attract more customers. Check out our <a href="/portfolio">portfolio</a> to see real examples. We've built sites for:</p>
 			</div>
 		</div>
 		<div class="row mb-4 px-3 px-sm-0">
@@ -173,7 +173,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12">
-				<p class="audience-outro">If you're a small business owner in San Antonio or across Texas looking for a website designer near you, we're here to help. Many of our clients come to us saying "I need to build a website for my small business" or "I want to redesign my website" — and we deliver exactly that: a professional, affordable site that reflects your brand and gets results.</p>
+				<p class="audience-outro">If you're a small business owner in San Antonio or across Texas looking for a website designer near you, we're here to help. Many of our clients come to us saying "I need to build a website for my small business" or "I want to redesign my website" — and we deliver exactly that: a professional, affordable site that reflects your brand and gets results. <a href="/contact">Contact us</a> to get started.</p>
 			</div>
 		</div>
 	</section>
@@ -226,7 +226,7 @@
 			<div class="col-12 text-center">
 				<h2>Affordable Web Design Pricing</h2>
 				<p class="lead">Professional websites starting from <strong>$1,000</strong>. The final price depends on the number of pages, features, and complexity — but we keep it transparent and within budget for small businesses.</p>
-				<p>Most simple business websites (5–8 pages, contact forms, basic SEO) land in the $1,000–$3,500 range. Need more pages, a blog, or custom functionality? We'll give you a clear quote after our discovery call. No hidden fees.</p>
+				<p>Most simple business websites (5–8 pages, contact forms, basic SEO) land in the $1,000–$3,500 range. For a detailed breakdown, read our guide on <a href="/blog/how-much-does-a-website-cost">how much a website costs</a>. Need more pages, a blog, or custom functionality? We'll give you a clear quote after our discovery call. No hidden fees.</p>
 				<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
 					<button type="button" class="btn btn-primary">Get Your Custom Quote</button>
 				</a>
@@ -265,6 +265,39 @@
 						<p>Our web design packages include custom design, responsive development, SEO basics (meta tags, headings, clean structure), contact forms, and launch setup. Hosting and domain are typically separate (we can help you set these up). Ongoing maintenance and updates can be added as an optional service.</p>
 					</details>
 				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Related Services -->
+	<section class="py-4">
+		<div class="row mb-4 text-center">
+			<h2>Related Services</h2>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-development" class="related-link">
+					<i class="fa-solid fa-code fa-2x"></i>
+					<p>Web Development</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/ecommerce" class="related-link">
+					<i class="fa-solid fa-cart-shopping fa-2x"></i>
+					<p>E-Commerce</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/landing-pages" class="related-link">
+					<i class="fa-solid fa-file-lines fa-2x"></i>
+					<p>Landing Pages</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/mobile-apps" class="related-link">
+					<i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+					<p>Mobile Apps</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -489,6 +522,11 @@
 		font-size: 1.2rem;
 		font-weight: 300;
 	}
+
+	.related-link { text-decoration: none; color: var(--dark-green); }
+	.related-link:hover { color: var(--medium-green); }
+	.related-link i { display: block; margin-bottom: 8px; }
+	.related-link p { font-size: 0.9rem; font-weight: 600; }
 
 	@media (max-width: 768px) {
 		.hero-section h1 {

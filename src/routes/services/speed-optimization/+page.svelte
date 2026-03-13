@@ -51,7 +51,7 @@
 		<div class="row py-5">
 			<div class="col-12 col-md-8 mx-auto text-center">
 				<h1 class="pb-3">Website Speed Optimization — Fix Your Slow Website</h1>
-				<p class="lead">Is your website taking forever to load? A slow website drives customers away, hurts your Google rankings, and costs you money every single day. We diagnose and fix the performance issues slowing your site down — from bloated images and unoptimized code to poor hosting and missing caching. Get a faster website that converts more visitors into customers.</p>
+				<p class="lead">Is your website taking forever to load? A slow website drives customers away, hurts your Google rankings, and costs you money every single day. We diagnose and fix the performance issues slowing your site down — from bloated images and unoptimized code to poor hosting and missing caching. Get a faster website that converts more visitors into customers. See the difference in our <a href="/portfolio">portfolio</a>.</p>
 				<div class="mt-4">
 					<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
 						<button type="button" class="btn btn-primary btn-lg">Get a Free Speed Audit</button>
@@ -75,7 +75,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-person-walking-arrow-right fa-2x"></i>
 						<h4 class="mb-3 mt-3">Bounce Rate</h4>
-						<p>53% of mobile visitors leave a website that takes longer than 3 seconds to load. That's more than half your potential customers gone before they even see what you offer. Every second of delay increases your bounce rate by roughly 32%. If your site is slow, you're paying for advertising and marketing that sends visitors to a site they'll never actually use. A fast website keeps people engaged and gives them a reason to stay, browse, and take action.</p>
+						<p>53% of mobile visitors leave a website that takes longer than 3 seconds to load. That's more than half your potential customers gone before they even see what you offer. Every second of delay increases your bounce rate by roughly 32%. If your site is slow, you're paying for advertising and marketing that sends visitors to a site they'll never actually use. A fast website keeps people engaged and gives them a reason to stay, browse, and take action. If your site is also <a href="/blog/website-not-mobile-friendly">not mobile-friendly</a>, the problem is even worse.</p>
 					</div>
 				</div>
 
@@ -83,7 +83,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-magnifying-glass fa-2x"></i>
 						<h4 class="mb-3 mt-3">SEO Rankings</h4>
-						<p>Google has officially made page speed a ranking factor. Slow websites get pushed down in search results while faster competitors climb higher. Google's Core Web Vitals — Largest Contentful Paint, First Input Delay, and Cumulative Layout Shift — directly measure your site's user experience and feed into your search rankings. A slow site doesn't just frustrate visitors; it makes your business harder to find on Google in the first place.</p>
+						<p>Google has officially made page speed a ranking factor. Slow websites get pushed down in search results while faster competitors climb higher. Speed optimization is a key part of any <a href="/services/seo">SEO strategy</a>. Google's Core Web Vitals — Largest Contentful Paint, First Input Delay, and Cumulative Layout Shift — directly measure your site's user experience and feed into your search rankings. A slow site doesn't just frustrate visitors; it makes your business harder to find on Google in the first place.</p>
 					</div>
 				</div>
 
@@ -214,7 +214,7 @@
 			<div class="col-12 col-md-8">
 				<details class="faq-item">
 					<summary>How do I know if my website is slow?</summary>
-					<p>Run your website through Google PageSpeed Insights (free). If your performance score is below 50 on mobile, your site has significant speed issues. Even scores between 50–89 have room for improvement. We also look at real-world metrics like Time to First Byte, Largest Contentful Paint, and Total Blocking Time to get the full picture of your site's performance.</p>
+					<p>Run your website through Google PageSpeed Insights (free). If your performance score is below 50 on mobile, your site has significant speed issues. Our post on <a href="/blog/why-is-my-website-slow">why websites load slowly</a> covers the most common causes. Even scores between 50–89 have room for improvement. We also look at real-world metrics like Time to First Byte, Largest Contentful Paint, and Total Blocking Time to get the full picture of your site's performance.</p>
 				</details>
 
 				<details class="faq-item">
@@ -229,18 +229,50 @@
 
 				<details class="faq-item">
 					<summary>How long does speed optimization take?</summary>
-					<p>Most speed optimization projects are completed within 3–5 business days. Simple sites can be optimized in as little as 1–2 days, while complex e-commerce sites or web applications with deep performance issues may take up to 2 weeks. We'll give you a clear timeline after our initial audit.</p>
+					<p>Most speed optimization projects are completed within 3–5 business days. Simple sites can be optimized in as little as 1–2 days, while complex e-commerce sites or web applications with deep performance issues may take up to 2 weeks. We'll give you a clear timeline after our initial audit. <a href="/contact">Contact us</a> to schedule yours, or visit our <a href="/pricing">pricing page</a> for details.</p>
 				</details>
 
 				<details class="faq-item">
 					<summary>Is this a one-time fix or ongoing?</summary>
-					<p>Speed optimization is primarily a one-time project, but website performance can degrade over time as content is added, plugins are updated, and code changes. We recommend a brief quarterly performance check-up to catch any regressions. For clients on our maintenance plans, ongoing performance monitoring is included.</p>
+					<p>Speed optimization is primarily a one-time project, but website performance can degrade over time as content is added, plugins are updated, and code changes. We recommend a brief quarterly performance check-up to catch any regressions. For clients on our <a href="/services/website-maintenance">website maintenance plans</a>, ongoing performance monitoring is included.</p>
 				</details>
 
 				<details class="faq-item">
 					<summary>Can you fix speed issues on any website platform?</summary>
 					<p>Yes. We optimize websites built on WordPress, Shopify, Squarespace, Wix, custom-coded sites, and web applications. Each platform has its own set of common performance issues, and we know how to address them all. WordPress sites tend to have the most optimization opportunities, but we've improved speed on every platform we've worked with.</p>
 				</details>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-4">
+		<div class="row mb-4 text-center">
+			<h2>Related Services</h2>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/seo" class="related-link">
+					<i class="fa-solid fa-magnifying-glass-chart fa-2x"></i>
+					<p>SEO Services</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/website-maintenance" class="related-link">
+					<i class="fa-solid fa-shield-halved fa-2x"></i>
+					<p>Website Maintenance</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-design" class="related-link">
+					<i class="fa-solid fa-palette fa-2x"></i>
+					<p>Web Design</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/landing-pages" class="related-link">
+					<i class="fa-solid fa-file-lines fa-2x"></i>
+					<p>Landing Pages</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -324,6 +356,11 @@
 		font-size: 1.25rem;
 		font-weight: 300;
 	}
+
+	.related-link { text-decoration: none; color: var(--dark-green); }
+	.related-link:hover { color: var(--medium-green); }
+	.related-link i { display: block; margin-bottom: 8px; }
+	.related-link p { font-size: 0.9rem; font-weight: 600; }
 
 	@media (max-width: 768px) {
 		.hero-section {

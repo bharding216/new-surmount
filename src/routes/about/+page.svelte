@@ -50,9 +50,9 @@
                     </p>
 
                     <p>
-                        I'm a full-stack developer specializing in custom web applications, mobile apps (iOS & Android), 
+                        I'm a full-stack developer specializing in <a href="/services/web-development">custom web applications</a>, <a href="/services/mobile-apps">mobile apps</a> (iOS & Android), 
                         internal tools, dashboards, and automation systems. I've built SaaS platforms serving 400+ users, 
-                        real-time bidding systems, and data pipelines that transform how businesses operate.
+                        real-time bidding systems, and data pipelines that transform how businesses operate. Check out my <a href="/portfolio">portfolio</a> to see examples.
                     </p>
 
                     <a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
@@ -81,7 +81,7 @@
             <div class="row mb-3 px-5 px-sm-0">
                 <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
                     <div class="text-center expertise-content">
-                        <h4 class="mb-4 mt-3">Custom Web Applications</h4>
+                        <h4 class="mb-4 mt-3"><a href="/services/web-development">Custom Web Applications</a></h4>
                         <i class="fa-solid fa-laptop-code fa-2x"></i>
                         <p class="mt-4">
                             Full-stack web applications built from scratch to handle your unique business workflows, 
@@ -92,7 +92,7 @@
 
                 <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
                     <div class="text-center expertise-content">
-                        <h4 class="mb-4 mt-3">Mobile Applications</h4>
+                        <h4 class="mb-4 mt-3"><a href="/services/mobile-apps">Mobile Applications</a></h4>
                         <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
                         <p class="mt-4">
                             Native iOS and Android mobile applications that extend your business capabilities, 
@@ -152,7 +152,7 @@
 
                 <div class="col-12 col-lg-6 justify-content-center mb-4 expertise-col">
                     <div class="text-center expertise-content">
-                        <h4 class="mb-4 mt-3">Technical Support & Maintenance</h4>
+                        <h4 class="mb-4 mt-3"><a href="/services/website-maintenance">Technical Support & Maintenance</a></h4>
                         <i class="fa-solid fa-wrench fa-2x"></i>
                         <p class="mt-4">Ongoing support, maintenance, and updates to keep your applications running smoothly and adapt to changing business needs.</p>                    
                     </div>
@@ -165,7 +165,7 @@
         <div class="row mb-5 text-center">
             <div class="col-12">
                 <h3 class="mb-4">Ready to Build Something Great?</h3>
-                <p class="mb-4">Let's discuss how we can help transform your business with custom software solutions.</p>
+                <p class="mb-4">Let's discuss how we can help transform your business with custom software solutions. Explore our <a href="/services">full list of services</a> or see our <a href="/pricing">transparent pricing</a>.</p>
                 <a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
                     <button type="button" class="btn btn-primary">Schedule Your Free Consultation</button>
                 </a>  

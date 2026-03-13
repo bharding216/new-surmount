@@ -56,6 +56,7 @@
 <div class="container">
     <div class="text-center py-5">
         <h1>Let's Partner Up</h1>
+        <p class="lead">Tell us about your project and we'll get back to you within 24 hours. Not sure what you need? Browse our <a href="/services">services</a>, check out our <a href="/portfolio">past work</a>, or review <a href="/pricing">pricing</a> first.</p>
     </div>
 </div>
 
@@ -72,6 +73,11 @@
 {/if}
 
 <div class="container form-container">
+    <div class="row justify-content-center mb-4">
+        <div class="col-12 col-md-10 col-lg-6 text-center">
+            <p>Prefer to schedule a video call? <a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">Book a free strategy call</a> instead. We serve businesses in <a href="/locations/san-antonio">San Antonio</a>, <a href="/locations/houston">Houston</a>, <a href="/locations/austin">Austin</a>, <a href="/locations/dallas">Dallas</a>, and <a href="/locations">across Texas</a>.</p>
+        </div>
+    </div>
     <div class="row justify-content-center pb-5">
         <div class="col-12 col-md-10 col-lg-6 form-border">
             <form 

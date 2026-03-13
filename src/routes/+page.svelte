@@ -142,26 +142,26 @@
 				<div class="row mb-3 px-5 px-sm-0">
 					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
 						<div class="text-center gameplan-content">
-							<h4 class="mb-4 mt-3">Custom Web Applications</h4>
-							<i class="fa-solid fa-window-maximize fa-2x"></i>
-							<p class="mt-4">Full-stack web apps built from scratch to handle your unique workflows and business logic.</p>
+						<h4 class="mb-4 mt-3"><a href="/services/web-development">Custom Web Applications</a></h4>
+						<i class="fa-solid fa-window-maximize fa-2x"></i>
+						<p class="mt-4">Full-stack web apps built from scratch to handle your unique workflows and business logic.</p>
 						</div>
 					</div>
 		
 					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
 						<div class="text-center gameplan-content">
-							<h4 class="mb-4 mt-3">Mobile Applications</h4>
-							<i class="fa-solid fa-mobile-screen-button fa-2x"></i>
-							<p class="mt-4">Native iOS and Android mobile apps that extend your business capabilities and reach customers on the go.</p>
+						<h4 class="mb-4 mt-3"><a href="/services/mobile-apps">Mobile Applications</a></h4>
+						<i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+						<p class="mt-4">Native iOS and Android mobile apps that extend your business capabilities and reach customers on the go.</p>
 	
 						</div>
 					</div>
 		
 					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
 						<div class="text-center gameplan-content">
-							<h4 class="mb-4 mt-3">Internal Dashboards & Automation</h4>
-							<i class="fa-solid fa-gauge-high fa-2x"></i>
-							<p class="mt-4">Real-time dashboards and automated workflows that replace manual processes and improve visibility.</p>
+						<h4 class="mb-4 mt-3"><a href="/services/web-development">Internal Dashboards & Automation</a></h4>
+						<i class="fa-solid fa-gauge-high fa-2x"></i>
+						<p class="mt-4">Real-time dashboards and automated workflows that replace manual processes and improve visibility.</p>
 	
 						</div>
 					</div>
@@ -186,9 +186,9 @@
 		
 					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
 						<div class="text-center gameplan-content">
-							<h4 class="mb-4 mt-3">MVPs for Startups</h4>
-							<i class="fa-solid fa-lightbulb fa-2x"></i>
-							<p class="mt-4">Get your startup idea to market fast with a minimum viable product that validates your concept.</p>
+						<h4 class="mb-4 mt-3"><a href="/services/web-development">MVPs for Startups</a></h4>
+						<i class="fa-solid fa-lightbulb fa-2x"></i>
+						<p class="mt-4">Get your startup idea to market fast with a minimum viable product that validates your concept.</p>
 	
 						</div>
 					</div>
@@ -241,10 +241,11 @@
 			<div class="row text-center">
 				<div class="col-12">
 					<h2 class="mb-4">Let's Discuss Your Project</h2>
-					<p class="lead mb-4">Schedule a free strategy call to explore how custom software can transform your business operations.</p>
+					<p class="lead mb-4">Schedule a free strategy call to explore how custom software can transform your business operations. Check out our <a href="/services">full list of services</a> or see our <a href="/pricing">transparent pricing</a>.</p>
 					<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
 						<button type="button" class="btn btn-primary">Book Your Free Strategy Call</button>
-					</a>  
+					</a>
+					<p class="mt-3"><a href="/contact">Or send us a message</a></p>
 				</div>
 			</div>
 		</div>
@@ -263,8 +264,8 @@
 		<div class="row justify-content-center text-center pb-5">
 			<div class="row pb-5 mb-3">
 				<div class="col-12 col-sm-6 d-flex align-items-center flex-column justify-content-center portfolio-text order-1">
-					<h3>Custom Software That Drives Results</h3>
-					<p>We focus on solving real business processes for service-based businesses ready to replace manual work. From interior designers to engineering firms, we build tools that work.</p>
+			<h3>Custom Software That Drives Results</h3>
+				<p>We focus on solving real business processes for service-based businesses ready to replace manual work. From <a href="/services/web-design">website design</a> to full-stack <a href="/services/web-development">custom web applications</a>, we build tools that work.</p>
 				</div>
 	
 				<div class="col-12 col-sm-6 d-flex align-items-center justify-content-center order-2">
@@ -282,8 +283,8 @@
 				</div>
 	
 				<div class="col-12 col-sm-6 order-1 order-sm-2 d-flex align-items-center flex-column justify-content-center portfolio-text">
-					<h3>Full-Stack Web Applications</h3>
-					<p>Custom APIs, real-time features, payment processing, and integrations — we build complete solutions that replace multiple tools.</p>
+			<h3>Full-Stack Web Applications</h3>
+				<p>Custom APIs, real-time features, payment processing, and integrations — we build complete solutions that replace multiple tools. Need an <a href="/services/ecommerce">online store</a>? We do that too.</p>
 				</div>
 			</div>
 	
@@ -316,8 +317,9 @@
 	<section>
 		<div class="row text-center pt-5 mt-5 pb-5">
 			<h1 class="pb-4">Ready to Streamline Your Business Operations?</h1>
-			<p class="lead pb-3">Book a free 30-minute strategy call to see how we can automate your workflows and boost efficiency.</p>
-			<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-primary">Book a Free Strategy Call</button></a>  
+			<p class="lead pb-3">Book a free 30-minute strategy call to see how we can automate your workflows and boost efficiency. Not sure where to start? Read our blog on <a href="/blog/how-much-does-a-website-cost">how much a website costs</a> or learn <a href="/blog/how-to-get-your-business-on-google">how to get your business on Google</a>.</p>
+			<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-primary">Book a Free Strategy Call</button></a>
+			<p class="mt-3">We serve businesses across Texas — <a href="/locations/san-antonio">San Antonio</a>, <a href="/locations/houston">Houston</a>, <a href="/locations/dallas">Dallas</a>, <a href="/locations/austin">Austin</a>, and <a href="/locations">more</a>.</p>
 		</div>
 	</section>
 </div>

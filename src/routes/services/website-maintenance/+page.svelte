@@ -51,7 +51,7 @@
 		<div class="row py-5">
 			<div class="col-12 col-md-8 mx-auto text-center">
 				<h1 class="pb-3">Website Maintenance & Support Services</h1>
-				<p class="lead">Your website shouldn't be something you worry about. Whether you need someone to keep WordPress updated, fix bugs when they pop up, monitor for security threats, or just have a reliable developer on call — we handle it all. Our website maintenance services keep your site fast, secure, and running smoothly so you can focus on running your business.</p>
+				<p class="lead">Your website shouldn't be something you worry about. Whether you need someone to keep WordPress updated, fix bugs when they pop up, monitor for security threats, or just have a reliable developer on call — we handle it all. Our website maintenance services keep your site fast, secure, and running smoothly so you can focus on running your business. See examples of businesses we support in our <a href="/portfolio">portfolio</a>.</p>
 				<div class="mt-4">
 					<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
 						<button type="button" class="btn btn-primary btn-lg">Get a Maintenance Quote</button>
@@ -83,7 +83,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-shield-halved fa-2x"></i>
 						<h4 class="mb-3 mt-3">Security Monitoring</h4>
-						<p>We proactively monitor your website for malware, unauthorized access attempts, suspicious file changes, and known vulnerabilities. Our security measures include firewall configuration, brute force protection, file integrity monitoring, and SSL certificate management. If a threat is detected, we respond immediately to contain and resolve the issue before it impacts your business or your customers.</p>
+						<p>We proactively monitor your website for malware, unauthorized access attempts, suspicious file changes, and known vulnerabilities. Our security measures include firewall configuration, brute force protection, file integrity monitoring, and SSL certificate management. If a threat is detected, we respond immediately to contain and resolve the issue before it impacts your business, your customers, or your <a href="/services/seo">SEO rankings</a>.</p>
 					</div>
 				</div>
 
@@ -107,7 +107,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-gauge-high fa-2x"></i>
 						<h4 class="mb-3 mt-3">Performance Optimization</h4>
-						<p>We regularly audit your site's speed and performance, optimizing images, cleaning up databases, managing caching, and fine-tuning server configurations. A fast website ranks better on Google, converts more visitors into customers, and provides a better user experience for everyone who visits.</p>
+						<p>We regularly audit your site's speed and performance, optimizing images, cleaning up databases, managing caching, and fine-tuning server configurations. A fast website ranks better on Google, converts more visitors into customers, and provides a better user experience. Need a deep performance overhaul? Explore our <a href="/services/speed-optimization">speed optimization services</a>.</p>
 					</div>
 				</div>
 
@@ -115,7 +115,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-pen-to-square fa-2x"></i>
 						<h4 class="mb-3 mt-3">Content Updates</h4>
-						<p>Need to update pricing, change your hours, add a new team member, or swap out photos? We handle routine content updates so you don't have to wrestle with your CMS. Just send us what you need changed, and we'll take care of it — usually within 24 hours on business days.</p>
+						<p>Need to update pricing, change your hours, add a new team member, or swap out photos? We handle routine content updates so you don't have to wrestle with your CMS. Just <a href="/contact">send us what you need changed</a>, and we'll take care of it — usually within 24 hours on business days.</p>
 					</div>
 				</div>
 			</div>
@@ -196,7 +196,7 @@
 			<div class="col-12 col-md-8">
 				<details class="faq-item">
 					<summary>Why do I need website maintenance?</summary>
-					<p>Websites are not "set it and forget it." Software needs updates, security threats evolve constantly, backups need to be tested, and performance degrades over time without attention. Without regular maintenance, your site becomes vulnerable to hacking, can break from outdated plugins, and will slowly lose search rankings due to declining performance. Think of it like maintaining a car — regular service prevents costly breakdowns.</p>
+					<p>Websites are not "set it and forget it." Software needs updates, security threats evolve constantly, backups need to be tested, and performance degrades over time without attention — learn more in our post on <a href="/blog/why-is-my-website-slow">why websites slow down</a>. Without regular maintenance, your site becomes vulnerable to hacking, can break from outdated plugins, and will slowly lose search rankings due to declining performance. Think of it like maintaining a car — regular service prevents costly breakdowns.</p>
 				</details>
 
 				<details class="faq-item">
@@ -216,13 +216,45 @@
 
 				<details class="faq-item">
 					<summary>Do I need a maintenance plan or can I just call when something breaks?</summary>
-					<p>You can hire us for one-time fixes, but it's almost always more cost-effective to have a maintenance plan. Proactive maintenance prevents most emergencies from happening in the first place. Emergency fixes are billed at a higher rate and depend on our availability, while maintenance plan clients get priority service and predictable monthly costs.</p>
+					<p>You can hire us for <a href="/services/website-fix">one-time website fixes</a>, but it's almost always more cost-effective to have a maintenance plan. Proactive maintenance prevents most emergencies from happening in the first place. Emergency fixes are billed at a higher rate and depend on our availability, while maintenance plan clients get priority service and predictable monthly costs. Visit our <a href="/pricing">pricing page</a> for plan details.</p>
 				</details>
 
 				<details class="faq-item">
 					<summary>Can you help with WordPress specifically?</summary>
 					<p>Absolutely. WordPress is one of the most common platforms we maintain. We handle core updates, plugin and theme updates, database optimization, security hardening, and performance tuning specifically for WordPress sites. We've resolved everything from white screens of death to plugin conflicts to hacked installations.</p>
 				</details>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-4">
+		<div class="row mb-4 text-center">
+			<h2>Related Services</h2>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/speed-optimization" class="related-link">
+					<i class="fa-solid fa-gauge-high fa-2x"></i>
+					<p>Speed Optimization</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/seo" class="related-link">
+					<i class="fa-solid fa-magnifying-glass-chart fa-2x"></i>
+					<p>SEO Services</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/website-fix" class="related-link">
+					<i class="fa-solid fa-wrench fa-2x"></i>
+					<p>Website Fix</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-design" class="related-link">
+					<i class="fa-solid fa-palette fa-2x"></i>
+					<p>Web Design</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -327,6 +359,11 @@
 		font-size: 1.25rem;
 		font-weight: 300;
 	}
+
+	.related-link { text-decoration: none; color: var(--dark-green); }
+	.related-link:hover { color: var(--medium-green); }
+	.related-link i { display: block; margin-bottom: 8px; }
+	.related-link p { font-size: 0.9rem; font-weight: 600; }
 
 	@media (max-width: 768px) {
 		.hero-section {

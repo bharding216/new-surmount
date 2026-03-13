@@ -61,7 +61,7 @@
 		<div class="row py-5">
 			<div class="col-12 col-md-8 mx-auto text-center">
 				<h1 class="pb-3">Mobile App Development for Small Businesses</h1>
-				<p class="lead">Need a mobile app for your business? We build custom iOS and Android applications that help small businesses in San Antonio and across Texas engage customers, streamline operations, and grow revenue. Projects starting at $10,000.</p>
+				<p class="lead">Need a mobile app for your business? We build custom iOS and Android applications that help small businesses in San Antonio and across Texas engage customers, streamline operations, and grow revenue. Projects starting at $10,000. <a href="/portfolio">See our recent work</a>.</p>
 				<div class="mt-4">
 					<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
 						<button type="button" class="btn btn-primary btn-lg">Book a Free Strategy Call</button>
@@ -101,7 +101,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-mobile-screen-button fa-2x"></i>
 						<h4 class="mb-3 mt-3">Cross-Platform Apps</h4>
-						<p>Want to launch on both iOS and Android without doubling your budget? We build cross-platform mobile applications using React Native and Flutter that share a single codebase while delivering native performance on both platforms. This approach reduces development time and cost, making it ideal for small businesses that need to reach users on every device without breaking the bank.</p>
+						<p>Want to launch on both iOS and Android without doubling your budget? We build cross-platform mobile applications using React Native and Flutter that share a single codebase while delivering native performance on both platforms. This approach reduces development time and cost, making it ideal for small businesses that need to reach users on every device without breaking the bank. Pair it with our <a href="/services/web-development">custom web development</a> for a complete digital platform.</p>
 					</div>
 				</div>
 			</div>
@@ -190,7 +190,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-pencil-ruler fa-2x"></i>
 						<h4 class="mb-3 mt-3">2. Design</h4>
-						<p>We create wireframes and interactive prototypes so you can see and test your app before a single line of code is written. We iterate on the design until you're satisfied with the user experience.</p>
+						<p>Our <a href="/services/web-design">design team</a> creates wireframes and interactive prototypes so you can see and test your app before a single line of code is written. We iterate on the design until you're satisfied with the user experience.</p>
 					</div>
 				</div>
 
@@ -206,7 +206,7 @@
 					<div class="text-center card-content">
 						<i class="fa-solid fa-rocket fa-2x"></i>
 						<h4 class="mb-3 mt-3">4. Launch & Support</h4>
-						<p>We handle App Store and Google Play submission, launch your app, and provide ongoing maintenance and support. We're with you long after launch day to keep your app running smoothly.</p>
+						<p>We handle App Store and Google Play submission, launch your app, and provide ongoing maintenance and support. We're with you long after launch day to keep your app running smoothly. <a href="/contact">Get in touch</a> to start the conversation.</p>
 					</div>
 				</div>
 			</div>
@@ -224,7 +224,7 @@
 			<div class="col-12 col-md-8">
 				<details class="faq-item">
 					<summary>How much does it cost to build a mobile app?</summary>
-					<p>Our mobile app projects start at $10,000 for a focused MVP. The final cost depends on the complexity of your app, the number of features, and whether you need iOS, Android, or both. During our free strategy call, we'll scope your project and provide a detailed estimate so there are no surprises.</p>
+					<p>Our mobile app projects start at $10,000 for a focused MVP. The final cost depends on the complexity of your app, the number of features, and whether you need iOS, Android, or both. During our free strategy call, we'll scope your project and provide a detailed estimate so there are no surprises. Visit our <a href="/pricing">pricing page</a> for ballpark figures, or read our guide on <a href="/blog/how-much-does-a-website-cost">how much digital projects cost</a>.</p>
 				</details>
 
 				<details class="faq-item">
@@ -251,6 +251,38 @@
 					<summary>Do you provide ongoing maintenance after launch?</summary>
 					<p>Yes, we offer ongoing maintenance and support plans to keep your app updated, fix bugs, add new features, and ensure compatibility with the latest OS versions. Mobile apps require regular updates, and we make that process seamless for you.</p>
 				</details>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-4">
+		<div class="row mb-4 text-center">
+			<h2>Related Services</h2>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-design" class="related-link">
+					<i class="fa-solid fa-palette fa-2x"></i>
+					<p>Web Design</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/web-development" class="related-link">
+					<i class="fa-solid fa-code fa-2x"></i>
+					<p>Web Development</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/ecommerce" class="related-link">
+					<i class="fa-solid fa-cart-shopping fa-2x"></i>
+					<p>E-Commerce</p>
+				</a>
+			</div>
+			<div class="col-6 col-md-3 mb-3 text-center">
+				<a href="/services/website-maintenance" class="related-link">
+					<i class="fa-solid fa-wrench fa-2x"></i>
+					<p>Website Maintenance</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -334,6 +366,11 @@
 		font-size: 1.25rem;
 		font-weight: 300;
 	}
+
+	.related-link { text-decoration: none; color: var(--dark-green); }
+	.related-link:hover { color: var(--medium-green); }
+	.related-link i { display: block; margin-bottom: 8px; }
+	.related-link p { font-size: 0.9rem; font-weight: 600; }
 
 	@media (max-width: 768px) {
 		.hero-section {
