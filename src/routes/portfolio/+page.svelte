@@ -14,8 +14,17 @@
 </script>
 
 <svelte:head>
-	<title>Portfolio | Custom Software Solutions</title>
-	<meta name="description" content="See our custom software solutions: SaaS platforms, internal tools, automation systems, and web applications that streamline business operations." />
+	<title>Our Work | Custom Software & Web Design Portfolio | Surmount</title>
+	<meta name="description" content="See our portfolio of custom software solutions: SaaS platforms, website redesigns, internal tools, automation systems, and web applications built for small businesses in Texas." />
+	<link rel="canonical" href="https://getsurmount.com/portfolio" />
+	<meta property="og:title" content="Our Work | Custom Software & Web Design Portfolio" />
+	<meta property="og:description" content="See our portfolio of custom software: SaaS platforms, website redesigns, internal tools, and web applications built for small businesses." />
+	<meta property="og:url" content="https://getsurmount.com/portfolio" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Surmount Web Services" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Our Work | Custom Software & Web Design Portfolio" />
+	<meta name="twitter:description" content="See our portfolio of custom software: SaaS platforms, website redesigns, internal tools, and web applications." />
 </svelte:head>
 
 <div class="container">

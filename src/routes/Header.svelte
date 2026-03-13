@@ -7,9 +7,8 @@
 	<nav class="navbar sticky-top navbar-expand-lg navbar-custom static-top">
 		<div class="container">
 
-			<!--Logo to the left-->
 			<a class="navbar-brand" href="/">
-				<img alt="Company logo" src={logo} class="logo align-top">
+				<img alt="Surmount Web Services - Custom Web Design and Development in San Antonio TX" src={logo} class="logo align-top">
 			</a>
 
 			<button class="navbar-toggler" 
@@ -19,9 +18,26 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<!--Links to the right-->
 			<div class="navbar-collapse collapse mb-3" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto me-5">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="/services" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+							aria-current={$page.url.pathname.startsWith('/services') ? 'page' : undefined}>
+							Services
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="/services/web-design">Web Design</a></li>
+							<li><a class="dropdown-item" href="/services/web-development">Web Development</a></li>
+							<li><a class="dropdown-item" href="/services/mobile-apps">Mobile Apps</a></li>
+							<li><a class="dropdown-item" href="/services/ecommerce">E-Commerce</a></li>
+							<li><a class="dropdown-item" href="/services/seo">SEO</a></li>
+							<li><a class="dropdown-item" href="/services/website-maintenance">Maintenance</a></li>
+							<li><a class="dropdown-item" href="/services/speed-optimization">Speed Optimization</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="/services">All Services</a></li>
+						</ul>
+					</li>
+
 					<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined} class="nav-item">
 						<a href="/portfolio" class="nav-link">Portfolio</a>
 					</li>
@@ -32,6 +48,10 @@
 
 					<li aria-current={$page.url.pathname === '/pricing' ? 'page' : undefined} class="nav-item">
 						<a href="/pricing" class="nav-link">Pricing</a>
+					</li>
+
+					<li aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} class="nav-item">
+						<a href="/blog" class="nav-link">Blog</a>
 					</li>
 
 					<li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined} class="nav-item">
@@ -59,6 +79,23 @@
 
 	.navbar-custom {
 		background-color: var(--primary-color);
+	}
+
+	.dropdown-menu {
+		border: 1px solid #e0e0e0;
+		box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+		border-radius: 8px;
+	}
+
+	.dropdown-item {
+		font-size: 13px;
+		padding: 8px 20px;
+		text-transform: none;
+	}
+
+	.dropdown-item:hover {
+		background-color: var(--light-green);
+		color: var(--dark-green);
 	}
 
 	@media (max-width: 768px) { 

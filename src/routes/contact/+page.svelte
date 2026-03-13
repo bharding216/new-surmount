@@ -28,8 +28,17 @@
 </script>
 
 <svelte:head>
-	<title>Contact us</title>
-	<meta name="description" content="San Antonio web developer" />
+	<title>Contact Us | Hire a Web Developer in San Antonio TX | Surmount</title>
+	<meta name="description" content="Contact Surmount Web Services for a free consultation. Hire a freelance web developer in San Antonio, TX for custom websites, web apps, mobile apps, and business automation." />
+	<link rel="canonical" href="https://getsurmount.com/contact" />
+	<meta property="og:title" content="Contact Us | Hire a Web Developer in San Antonio TX" />
+	<meta property="og:description" content="Contact Surmount Web Services for a free consultation. Custom websites, web apps, mobile apps, and business automation." />
+	<meta property="og:url" content="https://getsurmount.com/contact" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Surmount Web Services" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Contact Us | Hire a Web Developer in San Antonio TX" />
+	<meta name="twitter:description" content="Contact Surmount for a free consultation. Custom websites, web apps, and business automation." />
 </svelte:head>
 
 {#if showOverlay}

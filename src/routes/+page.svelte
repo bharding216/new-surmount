@@ -7,8 +7,64 @@
 </script>
 
 <svelte:head>
-	<title>Custom Software, Web & Mobile Apps | Surmount</title>
-	<meta name="description" content="Custom software, web apps, and mobile applications (iOS & Android) that streamline operations and boost efficiency. Internal tools, dashboards, automation, and MVPs for small businesses and startups." />
+	<title>Custom Software & Web Development San Antonio TX | Surmount</title>
+	<meta name="description" content="San Antonio custom software developer building web apps, mobile apps (iOS & Android), websites, and business automation tools. Affordable web design, SEO, and maintenance for small businesses across Texas." />
+	<link rel="canonical" href="https://getsurmount.com/" />
+	<meta property="og:title" content="Custom Software & Web Development San Antonio TX | Surmount" />
+	<meta property="og:description" content="San Antonio custom software developer building web apps, mobile apps, websites, and business automation tools for small businesses across Texas." />
+	<meta property="og:url" content="https://getsurmount.com/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Surmount Web Services" />
+	<meta property="og:locale" content="en_US" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Custom Software & Web Development San Antonio TX | Surmount" />
+	<meta name="twitter:description" content="San Antonio custom software developer building web apps, mobile apps, websites, and business automation tools for small businesses across Texas." />
+	<meta name="geo.region" content="US-TX" />
+	<meta name="geo.placename" content="San Antonio" />
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		"name": "Surmount Web Services",
+		"description": "Custom software development, web design, mobile apps, and business automation for small businesses in San Antonio and across Texas.",
+		"url": "https://getsurmount.com",
+		"telephone": "",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "San Antonio",
+			"addressRegion": "TX",
+			"addressCountry": "US"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 29.4241,
+			"longitude": -98.4936
+		},
+		"areaServed": [
+			{ "@type": "State", "name": "Texas" },
+			{ "@type": "City", "name": "San Antonio" },
+			{ "@type": "City", "name": "Austin" },
+			{ "@type": "City", "name": "Houston" },
+			{ "@type": "City", "name": "Dallas" }
+		],
+		"priceRange": "$1,000 - $25,000+",
+		"openingHours": "Mo-Fr 09:00-17:00",
+		"sameAs": [],
+		"founder": {
+			"@type": "Person",
+			"name": "Brandon Harding"
+		},
+		"hasOfferCatalog": {
+			"@type": "OfferCatalog",
+			"name": "Web Development Services",
+			"itemListElement": [
+				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Web Design", "description": "Professional website design for small businesses" } },
+				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web Application Development", "description": "Full-stack custom web applications" } },
+				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile App Development", "description": "Native iOS and Android mobile applications" } },
+				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO Optimization", "description": "Search engine optimization for small businesses" } },
+				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Maintenance", "description": "Ongoing website maintenance and support" } }
+			]
+		}
+	})}</script>`}
 </svelte:head>
 
 <div class="container">

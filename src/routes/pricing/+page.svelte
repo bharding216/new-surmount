@@ -3,8 +3,29 @@
 </script>
 
 <svelte:head>
-	<title>Pricing</title>
-	<meta name="description" content="San Antonio web developer" />
+	<title>How Much Does a Website Cost? | Web Development Pricing | Surmount</title>
+	<meta name="description" content="Affordable web design and custom software pricing. Websites from $1,000, web apps from $5,000. Get a free quote from a San Antonio web developer. No obligation consultation." />
+	<link rel="canonical" href="https://getsurmount.com/pricing" />
+	<meta property="og:title" content="How Much Does a Website Cost? | Web Development Pricing" />
+	<meta property="og:description" content="Affordable web design and custom software pricing. Websites from $1,000, web apps from $5,000. Get a free quote from a San Antonio web developer." />
+	<meta property="og:url" content="https://getsurmount.com/pricing" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Surmount Web Services" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="How Much Does a Website Cost? | Web Development Pricing" />
+	<meta name="twitter:description" content="Affordable web design and custom software pricing. Websites from $1,000, web apps from $5,000." />
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		"name": "Web Development Pricing",
+		"description": "Affordable web design and custom software pricing for small businesses.",
+		"url": "https://getsurmount.com/pricing",
+		"provider": {
+			"@type": "LocalBusiness",
+			"name": "Surmount Web Services",
+			"url": "https://getsurmount.com"
+		}
+	})}</script>`}
 </svelte:head>
 
 <div class="container">

@@ -1,6 +1,34 @@
 <svelte:head>
-	<title>About | Custom Software Developer</title>
-	<meta name="description" content="Brandon Harding - Full-stack developer specializing in custom software, web applications, mobile apps (iOS & Android), and business automation solutions." />
+	<title>About Brandon Harding | Freelance Web Developer San Antonio TX</title>
+	<meta name="description" content="Meet Brandon Harding — freelance web developer and custom software engineer in San Antonio, TX. Specializing in web apps, mobile apps, dashboards, and business automation for small businesses." />
+	<link rel="canonical" href="https://getsurmount.com/about" />
+	<meta property="og:title" content="About Brandon Harding | Freelance Web Developer San Antonio TX" />
+	<meta property="og:description" content="Meet Brandon Harding — freelance web developer and custom software engineer in San Antonio, TX. Specializing in web apps, mobile apps, and business automation." />
+	<meta property="og:url" content="https://getsurmount.com/about" />
+	<meta property="og:type" content="profile" />
+	<meta property="og:site_name" content="Surmount Web Services" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="About Brandon Harding | Freelance Web Developer San Antonio TX" />
+	<meta name="twitter:description" content="Meet Brandon Harding — freelance web developer and custom software engineer in San Antonio, TX." />
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Brandon Harding",
+		"jobTitle": "Full-Stack Developer & Founder",
+		"worksFor": {
+			"@type": "Organization",
+			"name": "Surmount Web Services",
+			"url": "https://getsurmount.com"
+		},
+		"url": "https://getsurmount.com/about",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "San Antonio",
+			"addressRegion": "TX",
+			"addressCountry": "US"
+		},
+		"knowsAbout": ["Web Development", "Mobile App Development", "Custom Software", "Business Automation", "SEO", "SaaS Development"]
+	})}</script>`}
 </svelte:head>
 
 <script>
