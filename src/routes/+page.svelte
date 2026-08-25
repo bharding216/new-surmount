@@ -1,33 +1,31 @@
 <script>
 	import webBuilders from '$lib/images/web-builders.png';
-	import ebWebsite from '$lib/images/eb.png';
-	import toddlyWebsite from '$lib/images/toddly-map.png';
-	import customCode from '$lib/images/custom-code.png';
-
+	import toddly1 from '$lib/images/toddly1.png';
+	import toddly2 from '$lib/images/toddly2.png';
+	import toddly3 from '$lib/images/toddly3.png';
 </script>
 
 <svelte:head>
-	<title>Custom Software & Web Development San Antonio TX | Surmount</title>
-	<meta name="description" content="San Antonio custom software developer building web apps, mobile apps (iOS & Android), websites, and business automation tools. Affordable web design, SEO, and maintenance for small businesses across Texas." />
+	<title>Custom Software for Businesses That Have Outgrown Spreadsheets | Surmount</title>
+	<meta name="description" content="Surmount builds custom software that automates repetitive work, connects your systems, and gives your team one place to run the business. Built by the team behind software used by 400+ schools." />
 	<link rel="canonical" href="https://getsurmount.com/" />
-	<meta property="og:title" content="Custom Software & Web Development San Antonio TX | Surmount" />
-	<meta property="og:description" content="San Antonio custom software developer building web apps, mobile apps, websites, and business automation tools for small businesses across Texas." />
+	<meta property="og:title" content="Custom Software for Businesses That Have Outgrown Spreadsheets | Surmount" />
+	<meta property="og:description" content="We automate repetitive work, connect your systems, and give your team one place to run the business. Built by the team behind software used by 400+ schools." />
 	<meta property="og:url" content="https://getsurmount.com/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="Surmount Web Services" />
 	<meta property="og:locale" content="en_US" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Custom Software & Web Development San Antonio TX | Surmount" />
-	<meta name="twitter:description" content="San Antonio custom software developer building web apps, mobile apps, websites, and business automation tools for small businesses across Texas." />
+	<meta name="twitter:title" content="Custom Software for Businesses That Have Outgrown Spreadsheets | Surmount" />
+	<meta name="twitter:description" content="We automate repetitive work, connect your systems, and give your team one place to run the business." />
 	<meta name="geo.region" content="US-TX" />
 	<meta name="geo.placename" content="San Antonio" />
 	{@html `<script type="application/ld+json">${JSON.stringify({
 		"@context": "https://schema.org",
 		"@type": "LocalBusiness",
 		"name": "Surmount Web Services",
-		"description": "Custom software development, web design, mobile apps, and business automation for small businesses in San Antonio and across Texas.",
+		"description": "Custom operational software for businesses that have outgrown spreadsheets. We automate repetitive work, connect systems, and build tools around how the business actually runs.",
 		"url": "https://getsurmount.com",
-		"telephone": "",
 		"address": {
 			"@type": "PostalAddress",
 			"addressLocality": "San Antonio",
@@ -46,22 +44,20 @@
 			{ "@type": "City", "name": "Houston" },
 			{ "@type": "City", "name": "Dallas" }
 		],
-		"priceRange": "$1,000 - $25,000+",
+		"priceRange": "$10,000 - $75,000+",
 		"openingHours": "Mo-Fr 09:00-17:00",
-		"sameAs": [],
 		"founder": {
 			"@type": "Person",
 			"name": "Brandon Harding"
 		},
 		"hasOfferCatalog": {
 			"@type": "OfferCatalog",
-			"name": "Web Development Services",
+			"name": "Custom Software Services",
 			"itemListElement": [
-				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Web Design", "description": "Professional website design for small businesses" } },
-				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web Application Development", "description": "Full-stack custom web applications" } },
-				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile App Development", "description": "Native iOS and Android mobile applications" } },
-				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO Optimization", "description": "Search engine optimization for small businesses" } },
-				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Maintenance", "description": "Ongoing website maintenance and support" } }
+				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Operational Software", "description": "Custom software that replaces spreadsheets and manual workflows" } },
+				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Childcare Software", "description": "Enrollment, waitlists, billing, and parent communications" } },
+				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Field Service Software", "description": "Scheduling, dispatch, estimates, and invoicing for trades businesses" } },
+				{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Services Software", "description": "Client portals, bidding, documents, and reporting" } }
 			]
 		}
 	})}</script>`}
@@ -73,166 +69,239 @@
 			<div class="row mb-3">
 				<div class="col-12 col-md-6 align-items-center d-flex mb-4 px-5">
 					<div class="text-center">
-						<h1 class="pb-3">Custom Software, Web & Mobile Apps That Streamline Operations & Boost Efficiency</h1>
-						<p class="lead">Tailored tools built for small businesses and teams — web applications, mobile apps (iOS & Android), internal tools, dashboards, portals, workflows, and automation that replace manual work and spreadsheets.</p>
-					<div class="mt-4">
-						<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-primary">Book a Free Strategy Call</button></a>
-					</div>
+						<h1 class="pb-3">Custom Software for Businesses That Have Outgrown Spreadsheets</h1>
+						<p class="lead">We build software that automates repetitive work, connects your systems, and gives your team a single place to run the business.</p>
+						<div class="mt-4">
+							<a href="/contact"><button type="button" class="btn btn-primary">Get a Free Software Assessment</button></a>
+							<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-outline-brand">Book a Call</button></a>
+						</div>
 						<div class="mt-3">
-							<p class="small-text"><strong>Real Results:</strong> Built a SaaS platform used by 400+ schools with automated billing and parent communications</p>
+							<p class="small-text">Built by the team behind software used by 400+ schools.</p>
 						</div>
 					</div>
 				</div>
-	
+
 				<div class="col-12 col-md-6 align-items-center d-flex justify-content-center">
-					<div><img src={webBuilders} alt="Custom software development for business automation." id="web-builders"></div>
+					<div><img src={webBuilders} alt="Custom software that replaces spreadsheets and manual work." id="web-builders"></div>
 				</div>
 			</div>
 		</div>
 	</section>
 </div>
 
-	
-	<section class="problems-section">
-		<div class="container">
-			<div class="row mb-5 text-center">
-				<h1>Stop Juggling These Business Challenges</h1>
-				<p class="lead">If you're dealing with any of these, custom software can solve them:</p>
+<section class="problems-section">
+	<div class="container">
+		<div class="row mb-5 text-center">
+			<h1>Is your business held together by spreadsheets?</h1>
+			<p class="lead">If any of this sounds familiar, custom software can fix it.</p>
+		</div>
+
+		<div class="row mb-3 px-5 px-sm-0">
+			<div class="col-sm-12 col-md-4 justify-content-center mb-4">
+				<div class="text-center problems-content">
+					<i class="fa-solid fa-copy fa-2x"></i>
+					<h4 class="mb-4 mt-3">The same information, entered twice</h4>
+					<p class="mt-4">Employees copy data from one spreadsheet, email, or system into another. Errors pile up. Nobody trusts the numbers.</p>
+				</div>
 			</div>
-		
-			<div class="row mb-3 px-5 px-sm-0">
-				<div class="col-sm-12 col-md-4 justify-content-center mb-4">
-					<div class="text-center problems-content">
-						<i class="fa-solid fa-table fa-2x"></i>
-						<h4 class="mb-4 mt-3">Manual Spreadsheet Work</h4>
-						<p class="mt-4">Tired of copying data between spreadsheets, losing information, and making errors? Automate it.</p>
-					</div>
+
+			<div class="col-sm-12 col-md-4 justify-content-center mb-4">
+				<div class="text-center problems-content">
+					<i class="fa-solid fa-unlink fa-2x"></i>
+					<h4 class="mb-4 mt-3">Systems that don't talk</h4>
+					<p class="mt-4">QuickBooks, the schedule, the CRM, and the inbox all hold part of the truth. Your team is the integration layer.</p>
 				</div>
-		
-				<div class="col-sm-12 col-md-4 justify-content-center mb-4">
-					<div class="text-center problems-content">
-						<i class="fa-solid fa-chart-line fa-2x"></i>
-						<h4 class="mb-4 mt-3">Lack of Visibility</h4>
-						<p class="mt-4">Can't see your business metrics in real-time? Get dashboards that show what matters.</p>
-					</div>
-				</div>
-		
-				<div class="col-sm-12 col-md-4 justify-content-center mb-4">
-					<div class="text-center problems-content">
-						<i class="fa-solid fa-arrows-rotate fa-2x"></i>
-						<h4 class="mb-4 mt-3">Repetitive Tasks</h4>
-						<p class="mt-4">Spending hours on tasks that could be automated? Free up time for what actually grows your business.</p>                    
-					</div>
+			</div>
+
+			<div class="col-sm-12 col-md-4 justify-content-center mb-4">
+				<div class="text-center problems-content">
+					<i class="fa-solid fa-user-lock fa-2x"></i>
+					<h4 class="mb-4 mt-3">A process only one person understands</h4>
+					<p class="mt-4">The business runs because one employee remembers the steps. If they are out, everything stalls.</p>
 				</div>
 			</div>
 		</div>
-	</section>
+
+		<div class="row mb-3 px-5 px-sm-0">
+			<div class="col-sm-12 col-md-4 justify-content-center mb-4">
+				<div class="text-center problems-content">
+					<i class="fa-solid fa-file-excel fa-2x"></i>
+					<h4 class="mb-4 mt-3">Manual reports every week</h4>
+					<p class="mt-4">Someone spends Friday assembling a report that should already exist. By the time you see it, the numbers are stale.</p>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-4 justify-content-center mb-4">
+				<div class="text-center problems-content">
+					<i class="fa-solid fa-repeat fa-2x"></i>
+					<h4 class="mb-4 mt-3">Repetitive admin work</h4>
+					<p class="mt-4">Scheduling, billing, follow-ups, and status updates eat hours that should go to customers and growth.</p>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-4 justify-content-center mb-4">
+				<div class="text-center problems-content">
+					<i class="fa-solid fa-puzzle-piece fa-2x"></i>
+					<h4 class="mb-4 mt-3">Software that almost fits</h4>
+					<p class="mt-4">Off-the-shelf tools cover 70% of the workflow. The other 30% is still spreadsheets, workarounds, and extra staff time.</p>
+				</div>
+			</div>
+		</div>
+
+		<p class="text-center lead mb-0">We can fix that.</p>
+	</div>
+</section>
+
+<section class="portfolio-section-homepage py-5">
+	<div class="container">
+		<div class="row pb-4 pt-5 text-center">
+			<h1>We built software used by 400+ schools</h1>
+			<p class="lead">A childcare platform with automated billing, parent communications, waitlists, and registration — replacing the spreadsheets that used to run enrollment.</p>
+		</div>
+
+		<div class="row pb-4">
+			<div class="col-12 col-md-4 mb-4">
+				<img src={toddly1} alt="Childcare SaaS map and school directory" class="image-size image-shadow">
+			</div>
+			<div class="col-12 col-md-4 mb-4">
+				<img src={toddly2} alt="Childcare SaaS billing and parent communications" class="image-size image-shadow">
+			</div>
+			<div class="col-12 col-md-4 mb-4">
+				<img src={toddly3} alt="Childcare SaaS waitlist and registration workflows" class="image-size image-shadow">
+			</div>
+		</div>
+
+		<div class="row justify-content-center text-center pb-4">
+			<div class="col-lg-8">
+				<p><strong>Problem:</strong> Childcare centers were managing enrollment, waitlists, billing, and parent updates by hand.</p>
+				<p><strong>Built:</strong> A full web application with payments, maps, calendars, waitlist automation, and registration workflows.</p>
+				<p><strong>Result:</strong> Used by 400+ schools.</p>
+				<a href="/work/childcare-saas"><button type="button" class="btn btn-primary">See the case study</button></a>
+			</div>
+		</div>
+	</div>
+</section>
 
 <div class="container">
 	<section>
 		<div class="py-5">
-			<div class="pt-5">
-				<div class="row mb-5 text-center">
-					<h1>What We Build</h1>
-					<p class="lead">Custom solutions designed to solve real business problems</p>
-				</div>
+			<div class="row mb-5 text-center">
+				<h1>What we automate</h1>
+				<p class="lead">We don't start with a tech stack. We start with the work that is costing you time and money.</p>
 			</div>
-		
-			<div class="pb-5">
-				<div class="row mb-3 px-5 px-sm-0">
-					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
-						<div class="text-center gameplan-content">
-						<h4 class="mb-4 mt-3"><a href="/services/web-development">Custom Web Applications</a></h4>
-						<i class="fa-solid fa-window-maximize fa-2x"></i>
-						<p class="mt-4">Full-stack web apps built from scratch to handle your unique workflows and business logic.</p>
-						</div>
-					</div>
-		
-					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
-						<div class="text-center gameplan-content">
-						<h4 class="mb-4 mt-3"><a href="/services/mobile-apps">Mobile Applications</a></h4>
-						<i class="fa-solid fa-mobile-screen-button fa-2x"></i>
-						<p class="mt-4">Native iOS and Android mobile apps that extend your business capabilities and reach customers on the go.</p>
-	
-						</div>
-					</div>
-		
-					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
-						<div class="text-center gameplan-content">
-						<h4 class="mb-4 mt-3"><a href="/services/web-development">Internal Dashboards & Automation</a></h4>
-						<i class="fa-solid fa-gauge-high fa-2x"></i>
-						<p class="mt-4">Real-time dashboards and automated workflows that replace manual processes and improve visibility.</p>
-	
-						</div>
+
+			<div class="row mb-3 px-5 px-sm-0">
+				<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
+					<div class="text-center gameplan-content">
+						<h4 class="mb-4 mt-3">Scheduling &amp; dispatch</h4>
+						<i class="fa-solid fa-calendar-check fa-2x"></i>
+						<p class="mt-4">Job boards, crew calendars, and assignment workflows so the office is not running the day from a whiteboard.</p>
 					</div>
 				</div>
 
-				<div class="row mb-3 px-5 px-sm-0">
-					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
-						<div class="text-center gameplan-content">
-							<h4 class="mb-4 mt-3">Workflow Automation & Integrations</h4>
-							<i class="fa-solid fa-plug fa-2x"></i>
-							<p class="mt-4">Connect your tools and automate data flow between systems to eliminate manual work.</p>                    
-						</div>
+				<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
+					<div class="text-center gameplan-content">
+						<h4 class="mb-4 mt-3">Billing &amp; payments</h4>
+						<i class="fa-solid fa-file-invoice-dollar fa-2x"></i>
+						<p class="mt-4">Invoices, recurring billing, and payment collection that match how you actually charge customers.</p>
 					</div>
-		
-					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
-						<div class="text-center gameplan-content">
-							<h4 class="mb-4 mt-3">APIs & Data Dashboards</h4>
-							<i class="fa-solid fa-database fa-2x"></i>
-							<p class="mt-4">Custom APIs and data visualization tools that turn your data into actionable insights.</p>
-						</div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
+					<div class="text-center gameplan-content">
+						<h4 class="mb-4 mt-3">Client &amp; family portals</h4>
+						<i class="fa-solid fa-users fa-2x"></i>
+						<p class="mt-4">A place for customers, parents, or clients to see status, submit information, and get updates without calling the office.</p>
 					</div>
-		
-					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
-						<div class="text-center gameplan-content">
-						<h4 class="mb-4 mt-3"><a href="/services/web-development">MVPs for Startups</a></h4>
-						<i class="fa-solid fa-lightbulb fa-2x"></i>
-						<p class="mt-4">Get your startup idea to market fast with a minimum viable product that validates your concept.</p>
-	
-						</div>
+				</div>
+			</div>
+
+			<div class="row mb-3 px-5 px-sm-0">
+				<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
+					<div class="text-center gameplan-content">
+						<h4 class="mb-4 mt-3">Reporting that runs itself</h4>
+						<i class="fa-solid fa-chart-column fa-2x"></i>
+						<p class="mt-4">Dashboards and reports from live data, not a weekly export someone has to babysit.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
+					<div class="text-center gameplan-content">
+						<h4 class="mb-4 mt-3">Integrations</h4>
+						<i class="fa-solid fa-plug fa-2x"></i>
+						<p class="mt-4">Connect QuickBooks, email, calendars, and the tools you already use so data moves without copy-paste.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
+					<div class="text-center gameplan-content">
+						<h4 class="mb-4 mt-3">The workflow only you have</h4>
+						<i class="fa-solid fa-gears fa-2x"></i>
+						<p class="mt-4">If off-the-shelf software does not match how you operate, we build the missing piece around your process.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
+
 	<section>
 		<div class="py-5">
-			<div class="pt-5">
-				<div class="row mb-5 text-center">
-					<h1>Our Process</h1>
-				</div>
+			<div class="row mb-5 text-center">
+				<h1>Who we work with</h1>
+				<p class="lead">Service businesses with people-heavy operations — the kind of work that outgrows spreadsheets fast.</p>
 			</div>
-		
-			<div class="pb-5">
-				<div class="row mb-3 px-5 px-sm-0">
-					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
-						<div class="text-center gameplan-content">
-							<h4 class="mb-4 mt-3">Discovery & Strategy</h4>
-							<i class="fa-solid fa-bullseye fa-2x"></i>
-							<p class="mt-4">We'll meet to understand your business challenges and define clear goals for your custom solution.</p>
-						</div>
+
+			<div class="row mb-3 px-5 px-sm-0">
+				<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
+					<div class="text-center gameplan-content">
+						<h4 class="mb-4 mt-3"><a href="/industries/childcare">Childcare &amp; education</a></h4>
+						<i class="fa-solid fa-school fa-2x"></i>
+						<p class="mt-4">Enrollment, waitlists, billing, and parent communications. We built and operate software used by 400+ schools.</p>
 					</div>
-		
-					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
-						<div class="text-center gameplan-content">
-							<h4 class="mb-4 mt-3">Build & Iterate</h4>
-							<i class="fa-solid fa-code fa-2x"></i>
-							<p class="mt-4">We'll build your solution with regular check-ins to ensure it solves your problems effectively.</p>
-	
-						</div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
+					<div class="text-center gameplan-content">
+						<h4 class="mb-4 mt-3"><a href="/industries/field-services">Field-service trades</a></h4>
+						<i class="fa-solid fa-truck-pickup fa-2x"></i>
+						<p class="mt-4">HVAC, plumbing, electrical, landscaping, and other crews. Scheduling, dispatch, estimates, and invoicing that match how jobs actually run.</p>
 					</div>
-		
-					<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
-						<div class="text-center gameplan-content">
-							<h4 class="mb-4 mt-3">Launch & Support</h4>
-							<i class="fa-solid fa-rocket fa-2x"></i>
-							<p class="mt-4">After launch, we continue to support your project and help it grow with your business.</p>                    
-						</div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 justify-content-center gameplan-col mb-4">
+					<div class="text-center gameplan-content">
+						<h4 class="mb-4 mt-3"><a href="/industries/professional-services">Professional services</a></h4>
+						<i class="fa-solid fa-briefcase fa-2x"></i>
+						<p class="mt-4">Agencies, consultants, and engineering firms. Client portals, bidding, documents, and reporting without the spreadsheet shuffle.</p>
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="py-5">
+			<div class="row mb-5 text-center">
+				<h1>What it typically costs</h1>
+				<p class="lead">You do not need an exact quote to know if this is in range.</p>
+			</div>
+			<div class="row justify-content-center text-center px-5 px-sm-0">
+				<div class="col-md-5 mb-4">
+					<div class="gameplan-content">
+						<h4>Typical projects</h4>
+						<p class="price-teaser">$10k–$75k+</p>
+						<p>Scoped around the workflow we are replacing, not an hourly guess.</p>
+					</div>
+				</div>
+				<div class="col-md-5 mb-4">
+					<div class="gameplan-content">
+						<h4>Ongoing support</h4>
+						<p class="price-teaser">$500–$3,000+/month</p>
+						<p>Hosting, fixes, and continued improvements after launch.</p>
+					</div>
+				</div>
+			</div>
+			<p class="text-center"><a href="/pricing">See full pricing</a></p>
 		</div>
 	</section>
 
@@ -240,99 +309,21 @@
 		<div class="py-5 mb-5">
 			<div class="row text-center">
 				<div class="col-12">
-					<h2 class="mb-4">Let's Discuss Your Project</h2>
-					<p class="lead mb-4">Schedule a free strategy call to explore how custom software can transform your business operations. Check out our <a href="/services">full list of services</a> or see our <a href="/pricing">transparent pricing</a>.</p>
-					<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
-						<button type="button" class="btn btn-primary">Book Your Free Strategy Call</button>
-					</a>
-					<p class="mt-3"><a href="/contact">Or send us a message</a></p>
+					<h2 class="mb-4">Have a process that is costing you time and money?</h2>
+					<p class="lead mb-4">Tell us what you are doing today. We'll tell you whether custom software is actually worth building.</p>
+					<a href="/contact"><button type="button" class="btn btn-primary">Get a Free Software Assessment</button></a>
+					<p class="mt-3"><a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">Or book a call</a> if you already know you want to talk.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 </div>
-
-
-<section class="portfolio-section-homepage py-5">
-	<div class="container">
-		<div class="row pb-5 pt-5">
-			<div class="text-center">
-				<h1>What We've Been Up To</h1>
-			</div>
-		</div>
-	
-		<div class="row justify-content-center text-center pb-5">
-			<div class="row pb-5 mb-3">
-				<div class="col-12 col-sm-6 d-flex align-items-center flex-column justify-content-center portfolio-text order-1">
-			<h3>Custom Software That Drives Results</h3>
-				<p>We focus on solving real business processes for service-based businesses ready to replace manual work. From <a href="/services/web-design">website design</a> to full-stack <a href="/services/web-development">custom web applications</a>, we build tools that work.</p>
-				</div>
-	
-				<div class="col-12 col-sm-6 d-flex align-items-center justify-content-center order-2">
-					<a href="/portfolio">
-						<img src={ebWebsite} alt="Custom software solution for business automation" class="image-size image-shadow"/>				
-					</a>
-				</div>
-			</div>
-	
-			<div class="row pb-5">
-				<div class="col-12 col-sm-6 order-2 d-flex align-items-center flex-column justify-content-center">
-					<a href="/portfolio">
-						<img src={toddlyWebsite} alt="SaaS platform for childcare centers" class="image-size image-shadow"/>
-					</a>
-				</div>
-	
-				<div class="col-12 col-sm-6 order-1 order-sm-2 d-flex align-items-center flex-column justify-content-center portfolio-text">
-			<h3>Full-Stack Web Applications</h3>
-				<p>Custom APIs, real-time features, payment processing, and integrations — we build complete solutions that replace multiple tools. Need an <a href="/services/ecommerce">online store</a>? We do that too.</p>
-				</div>
-			</div>
-	
-			<div class="row pb-5">
-				<div class="col-12 col-sm-6 order-1 order-sm-2 d-flex align-items-center flex-column justify-content-center portfolio-text">
-					<h3>Business Process Automation</h3>
-					<p>We've helped business owners improve visibility and efficiency by building custom data pipelines, dashboards, and automated workflows that eliminate manual work.</p>
-				</div>
-	
-				<div class="col-12 col-sm-6 order-2 d-flex align-items-center justify-content-center">
-					<a href="/portfolio">
-						<img src={customCode} alt="Business automation and data dashboard solution" class="image-size image-shadow"/>
-					</a>
-				</div>
-			</div>
-		</div>
-	
-		<div class="row">
-			<div class="col text-center">
-				<a href="/portfolio"><button type="button" class="btn btn-primary">See Our Full Portfolio</button></a>		
-			</div>
-		</div>	
-	</div>
-
-
-</section>
-
-
-<div class="container">
-	<section>
-		<div class="row text-center pt-5 mt-5 pb-5">
-			<h1 class="pb-4">Ready to Streamline Your Business Operations?</h1>
-			<p class="lead pb-3">Book a free 30-minute strategy call to see how we can automate your workflows and boost efficiency. Not sure where to start? Read our blog on <a href="/blog/how-much-does-a-website-cost">how much a website costs</a> or learn <a href="/blog/how-to-get-your-business-on-google">how to get your business on Google</a>.</p>
-			<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-primary">Book a Free Strategy Call</button></a>
-			<p class="mt-3">We serve businesses across Texas — <a href="/locations/san-antonio">San Antonio</a>, <a href="/locations/houston">Houston</a>, <a href="/locations/dallas">Dallas</a>, <a href="/locations/austin">Austin</a>, and <a href="/locations">more</a>.</p>
-		</div>
-	</section>
-</div>
-
-
-
 
 <style>
-
 	.gameplan-content {
 		padding: 20px;
-		background-color: var(--light-green); 
-		border-radius: 20px; 
+		background-color: var(--light-green);
+		border-radius: 20px;
 		height: 100%;
 		border: 1px solid black;
 		box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
@@ -343,20 +334,17 @@
 		color: var(--dark-green);
 	}
 
-    .image-shadow {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-	.image-size:hover {
-		cursor: pointer;
+	.image-shadow {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
+	.price-teaser {
+		font-size: 1.75rem;
+		font-weight: 700;
+		color: var(--dark-green);
+	}
 
 	@media (max-width: 768px) {
-		.portfolio-text {
-			padding: 0px 25px;
-		}
-
 		#web-builders {
 			width: 100%;
 			height: auto;
@@ -370,10 +358,6 @@
 	}
 
 	@media (min-width: 769px) and (max-width: 991px) {
-		.portfolio-text {
-			padding: 0px 50px;
-		}
-
 		#web-builders {
 			width: 100%;
 			height: auto;
@@ -384,15 +368,9 @@
 		.gameplan-col {
 			padding: 0px 20px;
 		}
-
 	}
-	
 
 	@media (min-width: 992px) {
-		.portfolio-text {
-			padding: 0px 50px;
-		}
-
 		#web-builders {
 			width: 100%;
 			height: auto;
@@ -408,7 +386,6 @@
 	.portfolio-section-homepage {
 		background-color: rgb(255, 249, 241);
 		width: 100%;
-
 	}
 
 	.problems-section {
@@ -419,8 +396,8 @@
 
 	.problems-content {
 		padding: 20px;
-		background-color: var(--white); 
-		border-radius: 20px; 
+		background-color: var(--white);
+		border-radius: 20px;
 		height: 100%;
 		border: 1px solid black;
 		box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
@@ -440,6 +417,4 @@
 		font-size: 1.25rem;
 		font-weight: 300;
 	}
-
-
 </style>

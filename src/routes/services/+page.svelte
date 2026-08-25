@@ -144,9 +144,9 @@
 		<div class="row text-center">
 			<div class="col-12">
 				<h2 class="mb-4">Not Sure What You Need?</h2>
-				<p class="lead mb-4">Book a free strategy call and we'll help you figure out the best solution for your business.</p>
-				<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
-					<button type="button" class="btn btn-primary">Book Your Free Strategy Call</button>
+				<p class="lead mb-4">Tell us what you are doing manually today. We'll tell you whether custom software is worth building.</p>
+				<a href="/contact">
+					<button type="button" class="btn btn-primary">Get a Free Software Assessment</button>
 				</a>
 			</div>
 		</div>

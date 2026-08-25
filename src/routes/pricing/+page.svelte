@@ -3,22 +3,22 @@
 </script>
 
 <svelte:head>
-	<title>How Much Does a Website Cost? | Web Development Pricing | Surmount</title>
-	<meta name="description" content="Affordable web design and custom software pricing. Websites from $1,000, web apps from $5,000. Get a free quote from a San Antonio web developer. No obligation consultation." />
+	<title>Custom Software Pricing | Typical Projects $10k–$75k+ | Surmount</title>
+	<meta name="description" content="Typical custom software projects run $10,000–$75,000+. Ongoing support is $500–$3,000+/month. Get a free software assessment from Surmount in San Antonio." />
 	<link rel="canonical" href="https://getsurmount.com/pricing" />
-	<meta property="og:title" content="How Much Does a Website Cost? | Web Development Pricing" />
-	<meta property="og:description" content="Affordable web design and custom software pricing. Websites from $1,000, web apps from $5,000. Get a free quote from a San Antonio web developer." />
+	<meta property="og:title" content="Custom Software Pricing | Typical Projects $10k–$75k+ | Surmount" />
+	<meta property="og:description" content="Typical custom software projects run $10,000–$75,000+. Ongoing support is $500–$3,000+/month." />
 	<meta property="og:url" content="https://getsurmount.com/pricing" />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="Surmount Web Services" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="How Much Does a Website Cost? | Web Development Pricing" />
-	<meta name="twitter:description" content="Affordable web design and custom software pricing. Websites from $1,000, web apps from $5,000." />
+	<meta name="twitter:title" content="Custom Software Pricing | Typical Projects $10k–$75k+ | Surmount" />
+	<meta name="twitter:description" content="Typical custom software projects run $10,000–$75,000+. Ongoing support is $500–$3,000+/month." />
 	{@html `<script type="application/ld+json">${JSON.stringify({
 		"@context": "https://schema.org",
 		"@type": "WebPage",
-		"name": "Web Development Pricing",
-		"description": "Affordable web design and custom software pricing for small businesses.",
+		"name": "Custom Software Pricing",
+		"description": "Typical custom software projects run $10,000–$75,000+ with ongoing support from $500–$3,000+/month.",
 		"url": "https://getsurmount.com/pricing",
 		"provider": {
 			"@type": "LocalBusiness",
@@ -34,39 +34,39 @@
         <div class="text-center">
             <h1 class="py-5">Pricing</h1>
             <div class="value-proposition mb-4">
-                <p class="lead">Custom software is tailored and scoped to your specific needs — prices vary based on complexity, features, and timeline. Here are typical ranges to help you decide if we're a good fit. For a deeper dive, read our blog post on <a href="/blog/how-much-does-a-website-cost">how much a website costs</a>.</p>
+                <p class="lead">Custom software is scoped to the workflow we are replacing. These ranges exist so you can tell quickly whether we are a fit — you do not need an exact quote to decide if it is worth a conversation.</p>
             </div>
         </div>
 
-        <!-- Investment Range Overview -->
         <div class="row mb-5">
             <div class="col-12">
                 <div class="card investment-overview">
                     <div class="card-body">
-                        <h3 class="text-center mb-4">Typical Investment Range</h3>
+                        <h3 class="text-center mb-4">Typical investment</h3>
                         <div class="row text-center">
                             <div class="col-md-4 mb-3 mb-md-0">
                                 <div class="investment-tier">
-                                    <h4>Simple Projects</h4>
-                                    <p class="price-range">From $1,000</p>
-                                    <p class="tier-description">Basic websites, landing pages, simple internal tools</p>
+                                    <h4>Focused tools</h4>
+                                    <p class="price-range">$10k–$25k</p>
+                                    <p class="tier-description">A dashboard, client portal, or a specific workflow that is eating staff time</p>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3 mb-md-0">
                                 <div class="investment-tier">
-                                    <h4>Mid-Complexity</h4>
-                                    <p class="price-range">From $8,000</p>
-                                    <p class="tier-description">Database-driven apps, dashboards, client portals</p>
+                                    <h4>Core operations software</h4>
+                                    <p class="price-range">$25k–$75k</p>
+                                    <p class="tier-description">Scheduling, billing, portals, and integrations around how the business actually runs</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="investment-tier">
-                                    <h4>Complex Projects</h4>
-                                    <p class="price-range">From $15,000+</p>
-                                    <p class="tier-description">E-commerce, advanced workflows, API integrations</p>
+                                    <h4>Complex platforms</h4>
+                                    <p class="price-range">$75k+</p>
+                                    <p class="tier-description">Multi-role systems, payments, APIs, and workflows that replace several tools at once</p>
                                 </div>
                             </div>
                         </div>
+                        <p class="text-center mt-4 mb-0"><strong>Ongoing support:</strong> $500–$3,000+/month for hosting, fixes, and continued improvements.</p>
                     </div>
                 </div>
             </div>
@@ -76,111 +76,106 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="m-0">For Established Businesses</h3>
+                        <h3 class="m-0">What that usually covers</h3>
                     </div>
 
                     <div class="mx-3">
-                        <p class="pt-3">Pricing is always negotiable, but here are some general prices for reference.</p>
+                        <p class="pt-3">Cost follows complexity, not page count.</p>
                         
                         <div class="pricing-factors mb-4">
-                            <h5>What Drives Cost Up?</h5>
+                            <h5>What drives cost up</h5>
                             <ul>
-                                <li>Number of user roles & permissions</li>
-                                <li>Third-party integrations (payment gateways, APIs, CRMs)</li>
+                                <li>Number of user roles &amp; permissions</li>
+                                <li>Third-party integrations (QuickBooks, payments, CRMs, calendars)</li>
                                 <li>Advanced security requirements</li>
-                                <li>Complex business logic & workflows</li>
+                                <li>Complex business logic &amp; workflows</li>
                                 <li>Custom design requirements</li>
                                 <li>Tight turnaround times</li>
                             </ul>
                         </div>
 
-                        <h5 class="mb-3">Project Categories</h5>
+                        <h5 class="mb-3">Project categories</h5>
 
-                        <!-- Responsive Website -->
                         <div class="project-category mb-4">
                             <div class="d-flex justify-content-between align-items-start mb-2">
-                                <h6 class="category-title"><a href="/services/web-design">Responsive Website</a></h6>
-                                <span class="price-badge">$1,000 - $10,000</span>
+                                <h6 class="category-title"><a href="/services/web-development">Operational web application</a></h6>
+                                <span class="price-badge">$10,000 - $75,000+</span>
                             </div>
-                            <p class="category-description"><strong>Typical use cases:</strong> Marketing sites, portfolios, <a href="/services/landing-pages">landing pages</a>, small business websites</p>
-                            <p class="category-description"><strong>What's included:</strong> Responsive design, <a href="/services/seo">SEO optimization</a>, contact forms, CMS integration</p>
+                            <p class="category-description"><strong>Typical use cases:</strong> Internal tools, client portals, scheduling, billing, waitlists, admin dashboards</p>
+                            <p class="category-description"><strong>What's included:</strong> Discovery, UI, backend, database, authentication, and the workflows your team actually uses</p>
+                            <p class="example-note">Most internal tools with a few roles land between $10k–$25k. Payments, multiple roles, and integrations push into $25k–$75k.</p>
                         </div>
 
-                        <!-- Web Application with Database -->
                         <div class="project-category mb-4">
                             <div class="d-flex justify-content-between align-items-start mb-2">
-                                <h6 class="category-title"><a href="/services/web-development">Web Application with Database</a></h6>
-                                <span class="price-badge">$5,000 - $20,000</span>
+                                <h6 class="category-title">Dashboards &amp; reporting</h6>
+                                <span class="price-badge">$10,000 - $25,000</span>
                             </div>
-                            <p class="category-description"><strong>Typical use cases:</strong> Customer dashboards, internal tools, admin portals, data management systems</p>
-                            <p class="category-description"><strong>What's included:</strong> UI/UX design, backend development, database architecture, authentication, basic user roles</p>
-                            <p class="example-note">💡 Most internal tools with basic workflows land between $8k–$15k. Advanced integrations or role-based permissions add to cost.</p>
+                            <p class="category-description"><strong>Typical use cases:</strong> Replacing the weekly spreadsheet report, KPI tracking, live operations views</p>
+                            <p class="category-description"><strong>What's included:</strong> Data connections, visualization, access control, and automated reports</p>
                         </div>
 
-                        <!-- Production Monitoring Tools -->
                         <div class="project-category mb-4">
                             <div class="d-flex justify-content-between align-items-start mb-2">
-                                <h6 class="category-title">Production Monitoring Tools</h6>
-                                <span class="price-badge">$5,000 - $20,000</span>
+                                <h6 class="category-title"><a href="/services/ecommerce">Payments &amp; customer portals</a></h6>
+                                <span class="price-badge">$15,000 - $75,000</span>
                             </div>
-                            <p class="category-description"><strong>Typical use cases:</strong> Real-time dashboards, analytics platforms, system health monitoring, KPI tracking</p>
-                            <p class="category-description"><strong>What's included:</strong> Data visualization, real-time updates, alerting systems, API integrations, reporting features</p>
+                            <p class="category-description"><strong>Typical use cases:</strong> Invoicing, deposits, subscriptions, parent or client self-service</p>
+                            <p class="category-description"><strong>What's included:</strong> Accounts, payments, documents, and the status updates your office currently handles by email</p>
                         </div>
 
-                        <!-- E-Commerce Website -->
                         <div class="project-category mb-4">
                             <div class="d-flex justify-content-between align-items-start mb-2">
-                                <h6 class="category-title"><a href="/services/ecommerce">E-Commerce Website</a></h6>
-                                <span class="price-badge">$5,000 - $20,000</span>
+                                <h6 class="category-title"><a href="/services/web-design">Marketing websites</a></h6>
+                                <span class="price-badge">From $1,000</span>
                             </div>
-                            <p class="category-description"><strong>Typical use cases:</strong> Online stores, subscription services, marketplace platforms</p>
-                            <p class="category-description"><strong>What's included:</strong> Product catalog, shopping cart, payment processing, inventory management, order tracking, customer accounts</p>
-                            <p class="example-note">💡 Basic stores with 10-50 products start around $5k. Advanced features like subscription billing, multi-vendor support, or complex shipping logic increase costs.</p>
+                            <p class="category-description"><strong>Typical use cases:</strong> A brochure site, landing page, or redesign when you already have a simple marketing need</p>
+                            <p class="category-description">This is not the core of the work. If you need a $1,500 website, say so in the assessment and we will tell you honestly whether we are the right fit.</p>
                         </div>
 
                         <div class="text-center py-4">
-                            <a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
-                                <button type="button" class="btn btn-primary btn-lg">Schedule a Free Consultation</button>
-                            </a> 
-                            <p class="mt-2 text-muted">Get a scoped price + timeline in 48 hours • No obligation</p>
+                            <a href="/contact">
+                                <button type="button" class="btn btn-primary btn-lg">Get a Free Software Assessment</button>
+                            </a>
+                            <p class="mt-2 text-muted">We'll tell you if custom software is worth building • No obligation</p>
+                            <p class="mt-1"><a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">Or book a call</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Typical Projects Delivered -->
         <div class="row mb-5">
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="m-0">Real Projects We've Delivered</h3>
+                        <h3 class="m-0">Example projects</h3>
                     </div>
                     <div class="mx-3 py-3">
-                        <p class="mb-4">Here are some examples to help you understand where your project might fall. See more in our <a href="/portfolio">full portfolio</a>.</p>
+                        <p class="mb-4">Ballpark examples so you can see where a project might land. More in the <a href="/portfolio">work</a>.</p>
                         
                         <div class="row">
                             <div class="col-md-4 mb-4">
                                 <div class="example-project">
-                                    <h5>Internal Reporting Dashboard</h5>
+                                    <h5>Internal reporting dashboard</h5>
                                     <p class="project-price">~$12,500</p>
-                                    <p class="project-details">Custom analytics dashboard with real-time data visualization, user authentication, and automated report generation for a manufacturing company.</p>
+                                    <p class="project-details">Live analytics, authentication, and automated reports that replaced a weekly spreadsheet for a manufacturing company.</p>
                                 </div>
                             </div>
                             
                             <div class="col-md-4 mb-4">
                                 <div class="example-project">
-                                    <h5>Client Portal + Payments</h5>
+                                    <h5>Client portal + payments</h5>
                                     <p class="project-price">~$18,000</p>
-                                    <p class="project-details">Secure client portal with document management, project tracking, invoicing, and Stripe payment integration for a consulting firm.</p>
+                                    <p class="project-details">Document management, project tracking, invoicing, and Stripe for a consulting firm.</p>
                                 </div>
                             </div>
                             
                             <div class="col-md-4 mb-4">
                                 <div class="example-project">
-                                    <h5>E-Commerce Store</h5>
-                                    <p class="project-price">~$15,000</p>
-                                    <p class="project-details">Full-featured online store with 200+ products, inventory management, order tracking, and integrated shipping calculations for a retail business.</p>
+                                    <h5>Booking system</h5>
+                                    <p class="project-price">~$16,500</p>
+                                    <p class="project-details">Scheduling, calendar sync, reminders, payments, and an admin dashboard for a healthcare provider.</p>
                                 </div>
                             </div>
                         </div>
@@ -188,40 +183,38 @@
                         <div class="row">
                             <div class="col-md-4 mb-4">
                                 <div class="example-project">
-                                    <h5>Marketing Website</h5>
-                                    <p class="project-price">~$3,500</p>
-                                    <p class="project-details">Professional 8-page responsive website with custom design, contact forms, blog integration, and SEO optimization for a local service business.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 mb-4">
-                                <div class="example-project">
-                                    <h5>Booking System</h5>
-                                    <p class="project-price">~$16,500</p>
-                                    <p class="project-details">Custom appointment scheduling system with calendar sync, automated reminders, payment processing, and admin dashboard for a healthcare provider.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 mb-4">
-                                <div class="example-project">
-                                    <h5>API Integration Platform</h5>
+                                    <h5>API integration platform</h5>
                                     <p class="project-price">~$22,000</p>
-                                    <p class="project-details">Complex middleware connecting multiple third-party APIs with custom business logic, data transformation, and automated workflows for a logistics company.</p>
+                                    <p class="project-details">Middleware connecting multiple APIs with custom business logic for a logistics company.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-4">
+                                <div class="example-project">
+                                    <h5>E-commerce store</h5>
+                                    <p class="project-price">~$15,000</p>
+                                    <p class="project-details">Catalog, inventory, orders, and shipping for a retailer with 200+ products.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 mb-4">
+                                <div class="example-project">
+                                    <h5>Marketing website</h5>
+                                    <p class="project-price">~$3,500</p>
+                                    <p class="project-details">An 8-page site with contact forms and SEO for a local service business — listed last on purpose.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="text-center py-3">
-                            <a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
-                                <button type="button" class="btn btn-primary">Schedule Your Strategy Call</button>
+                            <a href="/contact">
+                                <button type="button" class="btn btn-primary">Get a Free Software Assessment</button>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
 
     </section>
 </div>

@@ -9,19 +9,18 @@
 		<div class="row">
 			<div class="col-md-4 mb-4 mb-md-0">
 				<h5 class="footer-heading">Surmount Web Services</h5>
-				<p class="footer-text">Custom web design, development, and software solutions for small businesses in San Antonio, TX and across Texas.</p>
+				<p class="footer-text">Custom software for businesses that have outgrown spreadsheets. San Antonio, TX and across Texas.</p>
 				<p class="footer-text"><a href="mailto:brandon@getsurmount.com">brandon@getsurmount.com</a></p>
 			</div>
 
 			<div class="col-6 col-md-2 mb-4 mb-md-0">
-				<h6 class="footer-heading">Services</h6>
+				<h6 class="footer-heading">Industries</h6>
 				<ul class="footer-links">
-					<li><a href="/services/web-design">Web Design</a></li>
-					<li><a href="/services/web-development">Web Apps</a></li>
-					<li><a href="/services/mobile-apps">Mobile Apps</a></li>
-					<li><a href="/services/seo">SEO</a></li>
-					<li><a href="/services/ecommerce">E-Commerce</a></li>
-					<li><a href="/services/website-maintenance">Maintenance</a></li>
+					<li><a href="/industries/childcare">Childcare</a></li>
+					<li><a href="/industries/field-services">Field Services</a></li>
+					<li><a href="/industries/professional-services">Professional Services</a></li>
+					<li><a href="/industries">All Industries</a></li>
+					<li><a href="/services">Services</a></li>
 				</ul>
 			</div>
 
@@ -29,10 +28,10 @@
 				<h6 class="footer-heading">Company</h6>
 				<ul class="footer-links">
 					<li><a href="/about">About</a></li>
-					<li><a href="/portfolio">Portfolio</a></li>
+					<li><a href="/portfolio">Work</a></li>
 					<li><a href="/pricing">Pricing</a></li>
 					<li><a href="/blog">Blog</a></li>
-					<li><a href="/contact">Contact</a></li>
+					<li><a href="/contact">Assessment</a></li>
 				</ul>
 			</div>
 

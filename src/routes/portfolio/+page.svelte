@@ -14,24 +14,25 @@
 </script>
 
 <svelte:head>
-	<title>Our Work | Custom Software & Web Design Portfolio | Surmount</title>
-	<meta name="description" content="See our portfolio of custom software solutions: SaaS platforms, website redesigns, internal tools, automation systems, and web applications built for small businesses in Texas." />
+	<title>Our Work | Custom Software That Replaces Spreadsheets | Surmount</title>
+	<meta name="description" content="Case studies of custom operational software: a childcare platform used by 400+ schools, a live engineering bidding system, and a laboratory booking platform." />
 	<link rel="canonical" href="https://getsurmount.com/portfolio" />
-	<meta property="og:title" content="Our Work | Custom Software & Web Design Portfolio" />
-	<meta property="og:description" content="See our portfolio of custom software: SaaS platforms, website redesigns, internal tools, and web applications built for small businesses." />
+	<meta property="og:title" content="Our Work | Custom Software That Replaces Spreadsheets | Surmount" />
+	<meta property="og:description" content="See the software we have built for childcare, engineering, healthcare, and service businesses." />
 	<meta property="og:url" content="https://getsurmount.com/portfolio" />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="Surmount Web Services" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Our Work | Custom Software & Web Design Portfolio" />
-	<meta name="twitter:description" content="See our portfolio of custom software: SaaS platforms, website redesigns, internal tools, and web applications." />
+	<meta name="twitter:title" content="Our Work | Custom Software That Replaces Spreadsheets | Surmount" />
+	<meta name="twitter:description" content="See the software we have built for childcare, engineering, healthcare, and service businesses." />
 </svelte:head>
 
 <div class="container">
 	<section class="portfolio-whole-section">
 		<div class="row mt-5 mb-3 pb-4">
 			<div class="text-center">
-				<h1>Projects We're Especially Proud Of</h1>
+				<h1>Work that replaced manual processes</h1>
+				<p class="lead">Problem, what we built, and what it accomplished.</p>
 			</div>
 		</div>
 
@@ -39,66 +40,30 @@
 			<div class="portfolio-section">
 				<div class="row justify-content-center text-center pb-2 pb-md-4">
 					<div class="row pb-3">
-						<h3>Interior Designer Website Redesign</h3>
+						<h3>Childcare center SaaS platform</h3>
 					</div>
-
 					<div class="row">
-						<p>Partnered with a local interior designer and saved her over 50% on her annual hosting costs with a <a href="/services/web-design">custom website redesign</a>.</p>
-						<p>We also provided the branding and graphic design package.</p>
+						<p><strong>Problem:</strong> Schools were managing enrollment, waitlists, billing, and parent updates by hand.</p>
+						<p><strong>Built:</strong> A web application with payments, maps, calendars, waitlist automation, and registration workflows.</p>
+						<p><strong>Result:</strong> Used by 400+ schools.</p>
+						<p><a href="/work/childcare-saas">Read the full case study</a> · <a href="/industries/childcare">Childcare software</a></p>
 					</div>
 				</div>
 
 				<div class="row pb-5">
 					<div class="col-12 col-md-4 align-items-center d-flex">
 						<div class="text-center">
-							<img src={eb1} alt="EB screenshot" class="portfolio-image">
+							<img src={toddly1} alt="Childcare SaaS school map" class="portfolio-image">
 						</div>
 					</div>
-		
-					<div class="col-12 col-md-4 align-items-center d-flex" >
-						<div class="text-center">
-							<img src={eb2} alt="EB screenshot" class="portfolio-image">
-						</div>
-					</div>
-		
 					<div class="col-12 col-md-4 align-items-center d-flex">
 						<div class="text-center">
-							<img src={eb3} alt="EB screenshot" class="portfolio-image">
+							<img src={toddly2} alt="Childcare SaaS billing and communications" class="portfolio-image">
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row justify-content-center text-center">
-			<div class="portfolio-section">
-				<div class="row justify-content-center text-center pb-2 pb-md-4">
-					<div class="row pb-3">
-						<h3>Childcare Center SaaS Platform</h3>
-					</div>
-
-					<div class="row">
-						<p><strong>Result:</strong> Built and launched a SaaS platform used by 400+ schools with automated billing and parent communications.</p>
-						<p>A complete <a href="/services/web-development">web application</a> that connects parents with local childcare centers. Features include online payment processing, real-time map updates, calendar integration, automated waitlist management, and registration workflows — replacing manual processes and spreadsheets.</p>
-					</div>
-				</div>
-
-				<div class="row pb-5">
 					<div class="col-12 col-md-4 align-items-center d-flex">
 						<div class="text-center">
-							<img src={toddly1} alt="Toddly screenshot" class="portfolio-image">
-						</div>
-					</div>
-		
-					<div class="col-12 col-md-4 align-items-center d-flex" >
-						<div class="text-center">
-							<img src={toddly2} alt="Toddly screenshot" class="portfolio-image">
-						</div>
-					</div>
-		
-					<div class="col-12 col-md-4 align-items-center d-flex">
-						<div class="text-center">
-							<img src={toddly3} alt="Toddly screenshot" class="portfolio-image">
+							<img src={toddly3} alt="Childcare SaaS waitlist and registration" class="portfolio-image">
 						</div>
 					</div>
 				</div>
@@ -109,68 +74,96 @@
 			<div class="portfolio-section">
 				<div class="row justify-content-center text-center pb-2 pb-md-4">
 					<div class="row pb-3">
-						<h3>Real-time Engineering Project Bidding System</h3>
+						<h3>Real-time engineering project bidding system</h3>
 					</div>
-
 					<div class="row">
-						<p>Built a live bidding system for a local firm.</p>
-						<p>This project includes cloud storage for application documents, user authentication, and encrypted business information in our database.</p>
+						<p><strong>Problem:</strong> A local engineering firm needed a live way to collect and compare project bids without emailing documents around.</p>
+						<p><strong>Built:</strong> A bidding application with cloud document storage, user authentication, and encrypted business data.</p>
+						<p><strong>Result:</strong> Bids, files, and access live in one system instead of inboxes and shared drives.</p>
+						<p><a href="/industries/professional-services">Professional services software</a></p>
 					</div>
 				</div>
 
 				<div class="row pb-5">
 					<div class="col-12 col-md-4 align-items-center d-flex">
 						<div class="text-center">
-							<img src={se1} alt="SE screenshot" class="portfolio-image">
+							<img src={se1} alt="Engineering bidding system screenshot" class="portfolio-image">
 						</div>
 					</div>
-		
-					<div class="col-12 col-md-4 align-items-center d-flex" >
-						<div class="text-center">
-							<img src={se2} alt="SE screenshot" class="portfolio-image">
-						</div>
-					</div>
-		
 					<div class="col-12 col-md-4 align-items-center d-flex">
 						<div class="text-center">
-							<img src={se3} alt="SE screenshot" class="portfolio-image">
+							<img src={se2} alt="Engineering bidding documents" class="portfolio-image">
+						</div>
+					</div>
+					<div class="col-12 col-md-4 align-items-center d-flex">
+						<div class="text-center">
+							<img src={se3} alt="Engineering bidding authentication" class="portfolio-image">
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-
-
 		<div class="row justify-content-center text-center">
 			<div class="portfolio-section">
 				<div class="row justify-content-center text-center pb-2 pb-md-4">
 					<div class="row pb-3">
-						<h3>Laboratory Test Booking Platform</h3>
+						<h3>Laboratory test booking platform</h3>
 					</div>
-
 					<div class="row">
-						<p>Responsive web application with <a href="/services/ecommerce">e-commerce integration</a> for shipping and payments.</p>
-						<p>We also provided the branding and graphic design package.</p>
+						<p><strong>Problem:</strong> Booking lab tests and taking payment still depended on phone calls and disconnected tools.</p>
+						<p><strong>Built:</strong> A responsive web application with e-commerce for shipping and payments, plus branding.</p>
+						<p><strong>Result:</strong> Customers can book and pay online instead of going through a manual intake process.</p>
 					</div>
 				</div>
 
 				<div class="row pb-5">
 					<div class="col-12 col-md-4 align-items-center d-flex">
 						<div class="text-center">
-							<img src={usl1} alt="USL screenshot" class="portfolio-image">
+							<img src={usl1} alt="Laboratory booking platform screenshot" class="portfolio-image">
 						</div>
 					</div>
-		
-					<div class="col-12 col-md-4 align-items-center d-flex" >
-						<div class="text-center">
-							<img src={usl3} alt="USL screenshot" class="portfolio-image">
-						</div>
-					</div>
-		
 					<div class="col-12 col-md-4 align-items-center d-flex">
 						<div class="text-center">
-							<img src={usl2} alt="USL screenshot" class="portfolio-image">
+							<img src={usl3} alt="Laboratory booking payments" class="portfolio-image">
+						</div>
+					</div>
+					<div class="col-12 col-md-4 align-items-center d-flex">
+						<div class="text-center">
+							<img src={usl2} alt="Laboratory booking branding" class="portfolio-image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center text-center">
+			<div class="portfolio-section">
+				<div class="row justify-content-center text-center pb-2 pb-md-4">
+					<div class="row pb-3">
+						<h3>Interior designer website redesign</h3>
+					</div>
+					<div class="row">
+						<p><strong>Problem:</strong> A local interior designer needed a professional site without overpaying for hosting.</p>
+						<p><strong>Built:</strong> A custom website redesign plus branding and graphic design.</p>
+						<p><strong>Result:</strong> Cut annual hosting costs by more than 50%.</p>
+					</div>
+				</div>
+
+				<div class="row pb-5">
+					<div class="col-12 col-md-4 align-items-center d-flex">
+						<div class="text-center">
+							<img src={eb1} alt="Interior designer website screenshot" class="portfolio-image">
+						</div>
+					</div>
+					<div class="col-12 col-md-4 align-items-center d-flex">
+						<div class="text-center">
+							<img src={eb2} alt="Interior designer branding" class="portfolio-image">
+						</div>
+					</div>
+					<div class="col-12 col-md-4 align-items-center d-flex">
+						<div class="text-center">
+							<img src={eb3} alt="Interior designer site pages" class="portfolio-image">
 						</div>
 					</div>
 				</div>
@@ -178,25 +171,23 @@
 		</div>
 
 		<div class="row text-center pt-5 mt-5 pb-5">
-			<h2 class="pb-4">Ready to Build Your Custom Solution?</h2>
-			<p class="lead pb-3">Book a free strategy call to discuss how we can streamline your business operations. Explore our <a href="/services">full range of services</a> or check out our <a href="/pricing">pricing</a>.</p>
-			<a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-primary">Book a Free Strategy Call</button></a>
-			<p class="mt-3"><a href="/contact">Or send us a message</a></p>
+			<h2 class="pb-4">Have a process that is costing you time and money?</h2>
+			<p class="lead pb-3">Tell us what you are doing today. We'll tell you whether custom software is worth building.</p>
+			<a href="/contact"><button type="button" class="btn btn-primary">Get a Free Software Assessment</button></a>
+			<p class="mt-3"><a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">Or book a call</a></p>
 		</div>
-
 	</section>
 </div>
 
 <style>
-
 	.portfolio-image {
 		width: 100%;
 		height: auto;
 	}
 
 	.portfolio-section {
-		background-color: var(--light-green); 
-		border-radius: 20px; 
+		background-color: var(--light-green);
+		border-radius: 20px;
 		height: 100%;
 		border: 1px solid black;
 		box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
@@ -220,5 +211,4 @@
 			padding-bottom: 0px;
 		}
 	}
-
 </style>

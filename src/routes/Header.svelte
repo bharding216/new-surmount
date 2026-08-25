@@ -8,7 +8,7 @@
 		<div class="container">
 
 			<a class="navbar-brand" href="/">
-				<img alt="Surmount Web Services - Custom Web Design and Development in San Antonio TX" src={logo} class="logo align-top">
+				<img alt="Surmount — custom software for businesses that have outgrown spreadsheets" src={logo} class="logo align-top">
 			</a>
 
 			<button class="navbar-toggler" 
@@ -20,38 +20,30 @@
 
 			<div class="navbar-collapse collapse mb-3" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto me-5">
+					<li aria-current={$page.url.pathname.startsWith('/portfolio') || $page.url.pathname.startsWith('/work') ? 'page' : undefined} class="nav-item">
+						<a href="/portfolio" class="nav-link">Work</a>
+					</li>
+
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="/services" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-							aria-current={$page.url.pathname.startsWith('/services') ? 'page' : undefined}>
-							Services
+						<a class="nav-link dropdown-toggle" href="/industries" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+							aria-current={$page.url.pathname.startsWith('/industries') ? 'page' : undefined}>
+							Industries
 						</a>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="/services/web-design">Web Design</a></li>
-							<li><a class="dropdown-item" href="/services/web-development">Web Development</a></li>
-							<li><a class="dropdown-item" href="/services/mobile-apps">Mobile Apps</a></li>
-							<li><a class="dropdown-item" href="/services/ecommerce">E-Commerce</a></li>
-							<li><a class="dropdown-item" href="/services/seo">SEO</a></li>
-							<li><a class="dropdown-item" href="/services/website-maintenance">Maintenance</a></li>
-							<li><a class="dropdown-item" href="/services/speed-optimization">Speed Optimization</a></li>
+							<li><a class="dropdown-item" href="/industries/childcare">Childcare &amp; Education</a></li>
+							<li><a class="dropdown-item" href="/industries/field-services">Field-Service Trades</a></li>
+							<li><a class="dropdown-item" href="/industries/professional-services">Professional Services</a></li>
 							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="/services">All Services</a></li>
+							<li><a class="dropdown-item" href="/industries">All Industries</a></li>
 						</ul>
-					</li>
-
-					<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined} class="nav-item">
-						<a href="/portfolio" class="nav-link">Portfolio</a>
-					</li>
-
-					<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined} class="nav-item">
-						<a href="/about" class="nav-link">About</a>
 					</li>
 
 					<li aria-current={$page.url.pathname === '/pricing' ? 'page' : undefined} class="nav-item">
 						<a href="/pricing" class="nav-link">Pricing</a>
 					</li>
 
-					<li aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} class="nav-item">
-						<a href="/blog" class="nav-link">Blog</a>
+					<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined} class="nav-item">
+						<a href="/about" class="nav-link">About</a>
 					</li>
 
 					<li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined} class="nav-item">

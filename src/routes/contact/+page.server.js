@@ -1,11 +1,18 @@
 import nodemailer from 'nodemailer';
 import { recaptcha_secret_key, AWS_SES_PASSWORD } from '$env/static/private'
 
+function escapeHtml(value) {
+    return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+}
+
 export const actions = {
     default: async ({ request }) => {
         const data = await request.formData();
 
-        // Verify reCAPTCHA
         const response = await fetch('https://www.google.com/recaptcha/api/siteverify', {
             method: 'POST',
             headers: {
@@ -15,22 +22,14 @@ export const actions = {
         });
 
         const recaptcha = await response.json();
-        console.log("recaptcha", recaptcha);
 
         if (!recaptcha.success) {
-            console.log("reCAPTCHA failed");
             return {
                 status: 400,
-                body: {
-                    error: 'reCAPTCHA failed'
-                },
                 success: false
             }
         }
-        console.log("reCAPTCHA passed");
-        // meow
 
-        // Production
         var transport = nodemailer.createTransport({
             host: "email-smtp.us-east-2.amazonaws.com",
             port: 587,
@@ -40,28 +39,23 @@ export const actions = {
             }
           });
 
-        // Testing
-        // var transport = nodemailer.createTransport({
-        //     host: "sandbox.smtp.mailtrap.io",
-        //     port: 2525,
-        //     auth: {
-        //       user: "593e36a29c5001",
-        //       pass: "8d46480268a095"
-        //     }
-        //   });
-
         await transport.sendMail({
             from: 'hello@getsurmount.com',
             to: 'brandon@getsurmount.com',
-            subject: 'New Contact Form Submission',
+            subject: 'New Software Assessment',
             html: `
-                <h1>Contact Form Submission</h1>
-                <p><strong>Name:</strong> ${data.get('username')}</p>
-                <p><strong>Email:</strong> ${data.get('email')}</p>
-                <p><strong>Phone:</strong> ${data.get('phone')}</p>
-                <p><strong>Message:</strong> ${data.get('message')}</p>
-                <p><strong>Budget:</strong> ${data.get('budget')}</p>
+                <h1>Software Assessment</h1>
+                <p><strong>Name:</strong> ${escapeHtml(data.get('username'))}</p>
+                <p><strong>Email:</strong> ${escapeHtml(data.get('email'))}</p>
+                <p><strong>Phone:</strong> ${escapeHtml(data.get('phone'))}</p>
+                <p><strong>Doing manually today:</strong> ${escapeHtml(data.get('manual_work'))}</p>
+                <p><strong>Current software:</strong> ${escapeHtml(data.get('current_software'))}</p>
+                <p><strong>Biggest problem:</strong> ${escapeHtml(data.get('biggest_problem'))}</p>
+                <p><strong>People involved:</strong> ${escapeHtml(data.get('people_involved'))}</p>
+                <p><strong>Budget:</strong> ${escapeHtml(data.get('budget'))}</p>
             `
         });
+
+        return { success: true };
     }
 }

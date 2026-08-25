@@ -28,6 +28,23 @@
     background-color: var(--medium-green) !important;
 }
 
+.btn-outline-brand {
+    background-color: transparent !important;
+    color: var(--dark-green) !important;
+    border: 2px solid var(--dark-green) !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    margin: 10px !important;
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--light-green) !important;
+    color: var(--dark-green) !important;
+}
+
 .image-size {
     width: 100%;
     height: auto;

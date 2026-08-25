@@ -55,9 +55,10 @@
                         real-time bidding systems, and data pipelines that transform how businesses operate. Check out my <a href="/portfolio">portfolio</a> to see examples.
                     </p>
 
-                    <a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
-                        <button type="button" class="btn btn-primary">Book a Free Strategy Call</button>
-                    </a>  
+                    <a href="/contact">
+                        <button type="button" class="btn btn-primary">Get a Free Software Assessment</button>
+                    </a>
+                    <p class="mt-3"><a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">Or book a call</a></p>  
                 </div>
             </div>
 
@@ -164,10 +165,10 @@
 
         <div class="row mb-5 text-center">
             <div class="col-12">
-                <h3 class="mb-4">Ready to Build Something Great?</h3>
-                <p class="mb-4">Let's discuss how we can help transform your business with custom software solutions. Explore our <a href="/services">full list of services</a> or see our <a href="/pricing">transparent pricing</a>.</p>
-                <a href="https://calendly.com/brandon-surmount/intro-call" target="_blank" rel="noopener noreferrer">
-                    <button type="button" class="btn btn-primary">Schedule Your Free Consultation</button>
+                <h3 class="mb-4">Have a process that is costing you time and money?</h3>
+                <p class="mb-4">Tell us what you are doing today. We'll tell you whether custom software is worth building. See our <a href="/portfolio">work</a> or <a href="/pricing">pricing</a> first if you prefer.</p>
+                <a href="/contact">
+                    <button type="button" class="btn btn-primary">Get a Free Software Assessment</button>
                 </a>  
             </div>
         </div>
